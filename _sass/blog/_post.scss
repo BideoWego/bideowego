@@ -45,7 +45,8 @@
     ol,
     blockquote,
     q,
-    p {
+    p,
+    p img {
       margin-left: auto;
       margin-right: auto;
       margin-top: 1em;
@@ -53,6 +54,9 @@
     }
     p {
       text-indent: 2em;
+    }
+    p img {
+      margin-left: -2em;
     }
 
     pre.highlight {

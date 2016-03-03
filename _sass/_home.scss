@@ -2,9 +2,14 @@
 // Home
 // ----------------------------------------
 
-// Responsive background image with
-// radial gradient
-#home {
+#not-found {
+  #flash {
+    text-align: center;
+  }
+}
+
+#home,
+#not-found {
 
   // Center all text
   .tag-line,
@@ -29,6 +34,11 @@
 
   .nav-container a {
     @include transition-border-x;
+  }
+
+  .image-container img {
+    border-radius: 6px;
+    margin: 0 auto;
   }
 }
 
