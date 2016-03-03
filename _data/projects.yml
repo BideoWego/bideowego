@@ -27,7 +27,7 @@
     url: https://s3.amazonaws.com/bw.bideowego/images/mousevc.png
 -
   name: Slack Pomodoro Timer
-  description: A remote CLI pomodoro timer for Slack
+  description: A remote CLI pomodoro timer for Slack.
   github: https://github.com/BideoWego/slack_pomodoro_timer
   site: https://rubygems.org/gems/slack_pomodoro_timer
   image:
