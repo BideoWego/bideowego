@@ -34,7 +34,7 @@ logo:
 markdown: kramdown
 kramdown:
   input: GFM
-permalink: pretty
+permalink: /:title
 
 
 defaults:

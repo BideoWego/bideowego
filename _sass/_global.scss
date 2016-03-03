@@ -7,6 +7,8 @@
 // ----------------------------------------
 
 body {
+  font-size: 18px;
+  line-height: 1.75em;
   font-family: "Open Sans", sans-serif;
   color: $light;
 
@@ -50,10 +52,10 @@ h6 {
   line-height: 1.5;
 }
 
-p,
-div {
-  font-size: 16px;
-}
+// p,
+// div {
+//   font-size: 16px;
+// }
 
 p {
   margin-bottom: 1.75em;
@@ -144,7 +146,8 @@ p {
   }
 
   .social-links  {
-    margin-top: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     font-size: 64px;
   }
 }

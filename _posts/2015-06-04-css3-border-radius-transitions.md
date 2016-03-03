@@ -1,5 +1,6 @@
 ---
 title: CSS3 Border Radius Transitions
+date: 2015-06-04 02:00:00 -0500
 image:
   url: https://s3.amazonaws.com/bw.bideowego/images/css3-border-radius-transitions.png
 categories: [CSS, HTML]
@@ -175,6 +176,7 @@ Let's get a bit fancy with the clovers and transition the `0px` `border-radius` 
 ```
 
 
+## Conclusion
 
 
 I hope you enjoyed this simple little example of how you can generate interesting effects by applying transitions to the `border-radius` property.
