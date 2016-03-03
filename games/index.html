@@ -1,0 +1,53 @@
+---
+layout: default
+css_id: games-index
+---
+
+
+<!-- Header Site Title -->
+<header class="page-header">
+  <h1 class="site-title">
+    <a href="/games">
+      Games
+    </a>
+  </h1>
+</header>
+
+<!-- Game Index -->
+<div id="games" class="row">
+  <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+
+    {% for game in site.data.games %}
+
+      <!-- Game -->
+      <div class="game media">
+        <div class="media-left">
+          <a href="{{ game.site }}">
+            <img class="media-object img-circle" src="{{ game.image.url }}" alt="Image">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">
+            <a href="{{ game.site }}">
+              {{ game.name }}
+            </a>
+            <small>
+              <i class="fa fa-gamepad"></i>
+            </small>
+          </h4>
+          <div class="excerpt">
+            <p>
+              {{ game.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+
+  </div>
+</div><!-- games -->
+
+
+

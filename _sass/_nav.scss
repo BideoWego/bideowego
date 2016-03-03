@@ -1,0 +1,83 @@
+// ----------------------------------------
+// Nav
+// ----------------------------------------
+
+.navbar-default {
+  border-color: $primary;
+}
+.navbar,
+.navbar-default {
+  border-radius: 0;
+
+  background: $primary;
+  color: $light;
+
+  a {
+    font-size: 1.25em;
+  }
+
+  .navbar-nav .open .dropdown-menu > li > a:active,
+  .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:active,
+  .navbar-nav > .open > a:focus,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > li > a:active,
+  .navbar-nav > li > a:focus,
+  .navbar-nav > li > a:hover,
+  .dropdown-menu > li > a:active,
+  .dropdown-menu > li > a:focus,
+  .dropdown-menu > li > a:hover,
+  .navbar-brand:active,
+  .navbar-brand:focus,
+  .navbar-brand:hover,
+  a:active,
+  a:hover,
+  a:focus {
+    color: darken($primary, 35%);
+  }
+
+  .dropdown-menu {
+    padding: 0 0 5px 0;
+
+    a {
+      border-left: 0 solid $primary;
+      padding: 8px;
+
+      &:hover {
+        border-left-width: 4px;
+        transition: border-width 300ms;
+      }
+    }
+  }
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: $light;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $light;
+}
+.navbar-default .navbar-toggle {
+  border-color: $light;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($primary, 5%);
+  }
+}
+
+.navbar-brand {
+  text-indent: 8px;
+}
+.navbar-logo {
+  line-height: 48px;
+  img {
+    max-width: 32px;
+  }
+}
+
+
+

@@ -1,0 +1,42 @@
+---
+
+# ----------------------------------------
+# Projects
+# ----------------------------------------
+
+-
+  name: Tetris
+  description: The classic game brought to life in the browser with JavaScript.
+  github: https://github.com/BideoWego/project_tetris_js
+  site: https://rawgit.com/BideoWego/project_tetris_js/master/rawgit.html
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/tetris.png
+-
+  name: Asteroids
+  description: The arcade game rendered with HTML CSS and JavaScript (Works best in Chrome).
+  github: https://github.com/BideoWego/assignment_js_oop
+  site: https://rawgit.com/BideoWego/assignment_js_oop/master/rawgit.html
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/asteroids.png
+-
+  name: Snake
+  description: Snake hungry want eat.
+  github: https://github.com/BideoWego/project_game_center_browser
+  site: https://rawgit.com/BideoWego/project_game_center_browser/rawgit/index.html
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/snake.png
+-
+  name: Hangman
+  description: Can you guess the word before the little ASCII character guy gets it?
+  github: https://github.com/BideoWego/hangman
+  site: https://bideowego-hangman.herokuapp.com
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/hangman.png
+-
+  name: Blackjack
+  description: 21 to win.
+  github: https://github.com/BideoWego/assignment_sinatra_blackjack
+  site: https://bideowego-blackjack.herokuapp.com
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/blackjack.png
+

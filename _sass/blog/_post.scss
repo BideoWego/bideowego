@@ -1,0 +1,28 @@
+// ----------------------------------------
+// Post
+// ----------------------------------------
+
+
+#posts-show {
+  .post-image {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  article {
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1em;
+      max-width: 420px;
+      text-indent: 2em;
+    }
+
+    pre.highlight {
+      max-width: 640px;
+      margin: 2em auto;
+    }
+  }
+}
+
+

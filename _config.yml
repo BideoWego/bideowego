@@ -5,6 +5,26 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# ----------------------------------------
+# Site settings
+# ----------------------------------------
+
+title: Bideo Wego
+author: Bideo Wego
+baseurl: /
+email: your-email@domain.com
+description: > 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+url: "http://bideowego.com"
+logo:
+  full:
+    url: https://s3.amazonaws.com/bw.bideowego/images/bw.png
+  medium:
+    url: /favicon-194x194.png
+  thumbnail:
+    url: /favicon-32x32.png
 
 
 # ----------------------------------------
@@ -12,7 +32,22 @@
 # ----------------------------------------
 
 markdown: kramdown
+kramdown:
+  input: GFM
 permalink: pretty
+
+
+defaults:
+  -
+    scope:
+        path: ''
+        type: posts
+    values:
+      layout: post
+      image:
+        url: https://s3.amazonaws.com/bw.bideowego/images/bw.png
+      css_id: posts-show
+
 
 
 

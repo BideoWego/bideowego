@@ -1,0 +1,35 @@
+---
+
+# ----------------------------------------
+# Projects
+# ----------------------------------------
+
+-
+  name: Danebook
+  description: A mock social network app for the Danish of course!
+  github: https://github.com/BideoWego/danebook
+  site: https://bideowego-danebook.herokuapp.com/signup
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/danebook.png
+-
+  name: Viking Store
+  description: A mock eCommerce store for vikings to by the essentials.
+  github: https://github.com/BideoWego/project_viking_store
+  site: https://bideowego-viking-store.herokuapp.com/admin/analytics
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/viking-store.png
+-
+  name: Mousevc
+  description: A tiny MVC framework to jump start CLI apps. Gemified.
+  github: https://github.com/BideoWego/mousevc
+  site: https://rubygems.org/gems/mousevc
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/mousevc.png
+-
+  name: Slack Pomodoro Timer
+  description: A remote CLI pomodoro timer for Slack
+  github: https://github.com/BideoWego/slack_pomodoro_timer
+  site: https://rubygems.org/gems/slack_pomodoro_timer
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/pomodoro.jpg
+

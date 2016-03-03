@@ -1,38 +1,62 @@
-<footer class="site-footer">
+<!-- Footer -->
+<footer id="main-footer">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+  <!-- Site Map -->
+  <div class="site-map">
+    
+    <a href="/">
+      Home
+    </a>
+    <a href="/blog">
+      Blog
+    </a>
+    <a href="/projects">
+      Projects
+    </a>
+    <a href="/games">
+      Games
+    </a>
+    <a href="/about">
+      About
+    </a>
 
   </div>
 
+  <!-- Social Links -->
+  <div class="social-links">
+
+    <a href="{{ site.data.social_networks.github.url }}">
+      <i class="fa fa-github"></i>
+    </a>
+    <a href="{{ site.data.social_networks.soundcloud.url }}">
+      <i class="fa fa-soundcloud"></i>
+    </a>
+    <a href="{{ site.data.social_networks.facebook.url }}">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="{{ site.data.social_networks.twitter.url }}">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a href="{{ site.data.social_networks.youtube.url }}">
+      <i class="fa fa-youtube-play"></i>
+    </a>
+    <a href="{{ site.data.social_networks.googleplus.url }}">
+      <i class="fa fa-google-plus"></i>
+    </a>
+    <a href="{{ site.data.social_networks.instagram.url }}">
+      <i class="fa fa-instagram"></i>
+    </a>
+    <a href="{{ site.data.social_networks.linkedin.url }}">
+      <i class="fa fa-linkedin"></i>
+    </a>
+
+  </div>
+
+
+  <!-- Copyright -->
+  <div class="copyright">
+    Bideo Wego &copy; 2016
+  </div>
+
 </footer>
+
