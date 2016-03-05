@@ -1,0 +1,30 @@
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object img-circle" ng-src="{{ post.image.url }}" alt="Image">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <a ng-href="/{{ post.slug }}">
+        {{ post.title }}
+      </a>
+      <br>
+      <small>
+        <i class="fa fa-calendar"></i>
+        {{ toDate(post.date) | date: 'EEEE MMMM d, yyyy' }}
+      </small>
+    </h4>
+    <p>
+      <i class="fa fa-columns"></i>
+      {{ post.categories.join(', ') }}
+    </p>
+    <p>
+      <i class="fa fa-tags"></i>
+      #{{ post.tags.join(', #') }}
+    </p>
+    <div class="excerpt" ng-bind-html="post.excerpt">
+    </div>
+  </div>
+</div>
+

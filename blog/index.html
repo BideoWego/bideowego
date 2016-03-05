@@ -14,48 +14,26 @@ css_id: blog-index
 
 
 <!-- Post Index -->
-<div id="posts" class="row">
+<div id="posts" class="row" ng-controller="BlogCtrl">
   <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 
-    {% for post in site.posts %}
+      <!-- Loading -->
+      <div class="text-center" ng-if="!posts.length">
+        <h2>Loading...</h2>
+        <i class="fa fa-spinner fa-5x fa-spin"></i>
+      </div>
+
+      <!-- Search -->
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="q" placeholder="Search..." autofocus="true">
+        </div>
+      </form>
+
+      <h2 class="text-center text-danger" ng-if="!filteredPosts.length">No results</h2>
 
       <!-- Post -->
-      <div class="post row">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object img-circle" src="{{ post.image.url }}" alt="Image">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">
-              <a href="{{ post.url }}">
-               {{ post.title }}
-              </a>
-              <small>
-                <i class="fa fa-calendar"></i>
-               {{ post.date | date: '%B %d, %Y' }}
-              </small>
-            </h4>
-            <p>
-              <i class="fa fa-columns"></i>
-              {{ post.categories | join: ', ' }}
-            </p>
-            <p>
-              <i class="fa fa-tags"></i>
-              #{{ post.tags | join: ', #' }}
-            </p>
-            <div class="excerpt">
-              <p>
-               {{ post.excerpt }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div><!-- post -->
-
-    {% endfor %}
-
+      <div class="post row" ng-repeat="post in filteredPosts = (posts | filter: q)" ng-if="posts.length" post></div><!-- post -->
 
   </div>
 </div><!-- posts -->

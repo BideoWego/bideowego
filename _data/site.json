@@ -1,0 +1,537 @@
+{
+  "categories": [
+    "Git",
+    "Bash",
+    "Computer Science",
+    "Algorithm",
+    "SQL",
+    "HTML",
+    "CSS",
+    "Ruby",
+    "Ruby on Rails",
+    "Node.js",
+    "JavaScript",
+    "Game",
+    "PHP",
+    "Security",
+    "Sorting"
+  ],
+  "tags": [
+    "bashrc",
+    "dot-files",
+    "linked-list",
+    "ruby",
+    "optimization",
+    "time-series",
+    "ecommerce",
+    "responsive",
+    "cms",
+    "tinymce",
+    "dictionary",
+    "words",
+    "html-entities",
+    "encoding",
+    "decoding",
+    "collision-detection",
+    "space-shooter",
+    "createjs",
+    "password",
+    "random",
+    "search",
+    "binary",
+    "javascript",
+    "transition",
+    "animation"
+  ],
+  "posts": [
+    {
+      "draft": false,
+      "categories": [
+        "Git",
+        "Bash"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/git-home.png"
+      },
+      "css_id": "posts-show",
+      "title": "Git Home",
+      "date": "2016-03-03 05:00:00 -0500",
+      "tags": [
+        "bashrc",
+        "dot-files"
+      ],
+      "slug": "git-home",
+      "ext": ".md",
+      "excerpt": "<p>I’ve decided to share a concept that is already being used in the wild be various developers. The concept is version controlling your precious dot files.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Computer Science",
+        "Algorithm"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/reversing-a-linked-list-in-a-single-loop.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "Reversing a Linked List in a Single Loop",
+      "date": "2016-03-03 02:00:00 -0500",
+      "tags": [
+        "linked-list",
+        "ruby"
+      ],
+      "slug": "reversing-a-linked-list-in-a-single-loop",
+      "ext": ".md",
+      "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list\nwhere each node only has a reference to it’s next node.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "SQL"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/time-series-data-with-sql-group-by.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "Time Series Data with SQL GROUP BY",
+      "date": "2015-10-06 04:13:00 -0400",
+      "tags": [
+        "optimization",
+        "time-series"
+      ],
+      "slug": "time-series-data-with-sql-group-by",
+      "ext": ".md",
+      "excerpt": "<p>SQL, RDBMS, TL;DR.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "HTML",
+        "CSS"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/viking-mock-ecommerce-layout.png"
+      },
+      "css_id": "posts-show",
+      "title": "Viking Mock eCommerce Layout",
+      "date": "2015-08-22 01:00:00 -0400",
+      "tags": [
+        "ecommerce",
+        "responsive"
+      ],
+      "slug": "viking-mock-ecommerce-layout",
+      "ext": ".md",
+      "excerpt": "<p>A store layout for an eCommerce website allowing Vikings to purchase the axes they require to… be Vikings of course.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Ruby",
+        "Ruby on Rails"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/simple-rails-blog-cms.png"
+      },
+      "css_id": "posts-show",
+      "title": "Simple Rails Blog CMS",
+      "date": "2015-08-22 01:00:00 -0400",
+      "tags": [
+        "cms",
+        "tinymce"
+      ],
+      "slug": "simple-rails-blog-cms",
+      "ext": ".md",
+      "excerpt": "<p>2016-08-22-simple-rails-blog-cms.md</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Node.js",
+        "JavaScript",
+        "Game"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/letterz.png"
+      },
+      "css_id": "posts-show",
+      "title": "Letterz",
+      "date": "2015-06-11 01:00:00 -0400",
+      "tags": [
+        "dictionary",
+        "words"
+      ],
+      "slug": "letterz",
+      "ext": ".md",
+      "excerpt": "<p>Letterz is just a fun little game I wanted to create while testing out Node.js modules. The idea behind it is quite simple.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "JavaScript",
+        "HTML"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/javascript-html-entity-encoding-and-decoding.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "JavaScript HTML Entity Encoding and Decoding",
+      "date": "2015-06-10 01:00:00 -0400",
+      "tags": [
+        "html-entities",
+        "encoding",
+        "decoding"
+      ],
+      "slug": "javascript-html-entity-encoding-and-decoding",
+      "ext": ".md",
+      "excerpt": "<p>Recently I was presented with the problem of decoding and encoding HTML character entities with JavaScript. The task seems simple! However there are a few gotchas that I’d like to point out as well as show a bit of code that performs the task.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "JavaScript",
+        "Game"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/createjs-2d-rectangle-collision-detection.png"
+      },
+      "css_id": "posts-show",
+      "title": "CreateJS 2D Rectangle Collision Detection",
+      "date": "2015-06-09 01:00:00 -0400",
+      "tags": [
+        "collision-detection"
+      ],
+      "slug": "createjs-2d-rectangle-collision-detection",
+      "ext": ".md",
+      "excerpt": "<p>Ever wonder how 2D games know if your player is hit by that enemy over there?</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "JavaScript",
+        "Game"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/simple-createjs-space-shooter.png"
+      },
+      "css_id": "posts-show",
+      "title": "Simple CreateJS Space Shooter",
+      "date": "2015-06-08 01:00:00 -0400",
+      "tags": [
+        "space-shooter",
+        "createjs"
+      ],
+      "slug": "simple-createjs-space-shooter",
+      "ext": ".md",
+      "excerpt": "<p>My quick little space shooter. The game can be played <a href=\"https://jsfiddle.net/BideoWego/jashqc71/\" target=\"_blank\">here</a>.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "PHP",
+        "Security"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/php-random-password-generator.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "PHP Random Password Generator",
+      "date": "2015-06-07 01:00:00 -0400",
+      "tags": [
+        "password",
+        "random"
+      ],
+      "slug": "php-random-password-generator",
+      "ext": ".md",
+      "excerpt": "<p>A while ago I decided to write a bit of PHP that generates a random password according to common password requirements.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Computer Science",
+        "Algorithm"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/binary-search-algorithm.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "Binary Search Algorithm",
+      "date": "2015-06-06 01:00:00 -0400",
+      "tags": [
+        "search",
+        "binary"
+      ],
+      "slug": "binary-search-algorithm",
+      "ext": ".md",
+      "excerpt": "<p>A <a href=\"https://en.wikipedia.org/wiki/Binary_search_algorithm\" target=\"_blank\">Binary Search</a> sounds incredibly intimidating. However, follows a very logical set of rules that perform an extremely efficient task.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Sorting",
+        "Algorithm"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/bubble-sort-algorithm.jpg"
+      },
+      "css_id": "posts-show",
+      "title": "Bubble Sort Algorithm",
+      "date": "2015-06-05 01:00:00 -0400",
+      "tags": [
+        "javascript"
+      ],
+      "slug": "bubble-sort-algorithm",
+      "ext": ".md",
+      "excerpt": "<p>I decided with my lack of computer science knowledge it was time to test out implementing a few algorithms commonly used in the computer science world.</p>\n\n"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "CSS",
+        "HTML"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/css3-border-radius-transitions.png"
+      },
+      "css_id": "posts-show",
+      "title": "CSS3 Border Radius Transitions",
+      "date": "2015-06-04 03:00:00 -0400",
+      "tags": [
+        "transition",
+        "animation"
+      ],
+      "slug": "css3-border-radius-transitions",
+      "ext": ".md",
+      "excerpt": "<p><a href=\"http://jsfiddle.net\" target=\"_blank\">JS Fiddle</a> is a great environment to test out your HTML, CSS and JavaScript. It is feature rich and provides a way for developers to share live code demos without needing to host it themselves.</p>\n\n"
+    }
+  ],
+  "static_files": [
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:42 -0500",
+      "url": "/android-chrome-144x144.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:42 -0500",
+      "url": "/android-chrome-192x192.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:42 -0500",
+      "url": "/android-chrome-36x36.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/android-chrome-48x48.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/android-chrome-72x72.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/android-chrome-96x96.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-114x114.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-120x120.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-144x144.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-152x152.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-180x180.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-57x57.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-60x60.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-72x72.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:44 -0500",
+      "url": "/apple-touch-icon-76x76.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/apple-touch-icon-precomposed.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/apple-touch-icon.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/favicon-16x16.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/favicon-194x194.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/favicon-32x32.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/favicon-96x96.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/mstile-144x144.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/mstile-150x150.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/mstile-310x150.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:46 -0500",
+      "url": "/mstile-310x310.png"
+    },
+    {
+      "extname": ".png",
+      "modified_time": "2016-02-29 06:54:48 -0500",
+      "url": "/mstile-70x70.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Danebook",
+      "description": "A mock social network app for the Danish of course!",
+      "github": "https://github.com/BideoWego/danebook",
+      "site": "https://bideowego-danebook.herokuapp.com/signup",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/danebook.png"
+      }
+    },
+    {
+      "name": "Viking Store",
+      "description": "A mock eCommerce store for vikings to by the essentials.",
+      "github": "https://github.com/BideoWego/project_viking_store",
+      "site": "https://bideowego-viking-store.herokuapp.com/admin/analytics",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/viking-store.png"
+      }
+    },
+    {
+      "name": "Mousevc",
+      "description": "A tiny MVC framework to jump start CLI apps. Gemified.",
+      "github": "https://github.com/BideoWego/mousevc",
+      "site": "https://rubygems.org/gems/mousevc",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/mousevc.png"
+      }
+    },
+    {
+      "name": "Slack Pomodoro Timer",
+      "description": "A remote CLI pomodoro timer for Slack.",
+      "github": "https://github.com/BideoWego/slack_pomodoro_timer",
+      "site": "https://rubygems.org/gems/slack_pomodoro_timer",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/pomodoro.jpg"
+      }
+    }
+  ],
+  "games": [
+    {
+      "name": "Tetris",
+      "description": "The classic game brought to life in the browser with JavaScript.",
+      "github": "https://github.com/BideoWego/project_tetris_js",
+      "site": "https://rawgit.com/BideoWego/project_tetris_js/master/rawgit.html",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/tetris.png"
+      }
+    },
+    {
+      "name": "Asteroids",
+      "description": "The arcade game rendered with HTML CSS and JavaScript (Works best in Chrome).",
+      "github": "https://github.com/BideoWego/assignment_js_oop",
+      "site": "https://rawgit.com/BideoWego/assignment_js_oop/master/rawgit.html",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/asteroids.png"
+      }
+    },
+    {
+      "name": "Snake",
+      "description": "Snake hungry want eat.",
+      "github": "https://github.com/BideoWego/project_game_center_browser",
+      "site": "https://rawgit.com/BideoWego/project_game_center_browser/rawgit/index.html",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/snake.png"
+      }
+    },
+    {
+      "name": "Hangman",
+      "description": "Can you guess the word before the little ASCII character guy gets it?",
+      "github": "https://github.com/BideoWego/hangman",
+      "site": "https://bideowego-hangman.herokuapp.com",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/hangman.png"
+      }
+    },
+    {
+      "name": "Blackjack",
+      "description": "21 to win.",
+      "github": "https://github.com/BideoWego/assignment_sinatra_blackjack",
+      "site": "https://bideowego-blackjack.herokuapp.com",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/blackjack.png"
+      }
+    }
+  ]
+}
