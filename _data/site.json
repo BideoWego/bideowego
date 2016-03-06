@@ -55,6 +55,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/git-home.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Git Home",
       "date": "2016-03-03 05:00:00 -0500",
       "tags": [
@@ -63,7 +64,8 @@
       ],
       "slug": "git-home",
       "ext": ".md",
-      "excerpt": "<p>I’ve decided to share a concept that is already being used in the wild by various developers. The concept is version controlling your precious dot files.</p>\n\n"
+      "excerpt": "<p>I’ve decided to share a concept that is already being used in the wild by various developers. The concept is version controlling your precious dot files.</p>\n\n",
+      "disqus_id": "024b3fa8f9eb59fbba1022ac0c3c7467"
     },
     {
       "draft": false,
@@ -76,6 +78,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/reversing-a-linked-list-in-a-single-loop.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Reversing a Linked List in a Single Loop",
       "date": "2016-03-03 02:00:00 -0500",
       "tags": [
@@ -84,7 +87,8 @@
       ],
       "slug": "reversing-a-linked-list-in-a-single-loop",
       "ext": ".md",
-      "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list\nwhere each node only has a reference to it’s next node.</p>\n\n"
+      "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list\nwhere each node only has a reference to it’s next node.</p>\n\n",
+      "disqus_id": "db86ad241a4f2dd56be5c0a41a5a495a"
     },
     {
       "draft": false,
@@ -96,6 +100,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/time-series-data-with-sql-group-by.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Time Series Data with SQL GROUP BY",
       "date": "2015-10-06 04:13:00 -0400",
       "tags": [
@@ -104,7 +109,8 @@
       ],
       "slug": "time-series-data-with-sql-group-by",
       "ext": ".md",
-      "excerpt": "<p>SQL, RDBMS, TL;DR.</p>\n\n"
+      "excerpt": "<p>SQL, RDBMS, TL;DR.</p>\n\n",
+      "disqus_id": "63d5a901c4887f147acea26569859179"
     },
     {
       "draft": false,
@@ -117,6 +123,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/viking-mock-ecommerce-layout.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Viking Mock eCommerce Layout",
       "date": "2015-08-22 01:00:00 -0400",
       "tags": [
@@ -125,7 +132,8 @@
       ],
       "slug": "viking-mock-ecommerce-layout",
       "ext": ".md",
-      "excerpt": "<p>A store layout for an eCommerce website allowing Vikings to purchase the axes they require to… be Vikings of course.</p>\n\n"
+      "excerpt": "<p>A store layout for an eCommerce website allowing Vikings to purchase the axes they require to… be Vikings of course.</p>\n\n",
+      "disqus_id": "79889f3b562f398225e36bc5a138b036"
     },
     {
       "draft": false,
@@ -138,6 +146,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/simple-rails-blog-cms.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Simple Rails Blog CMS",
       "date": "2015-08-22 01:00:00 -0400",
       "tags": [
@@ -146,7 +155,8 @@
       ],
       "slug": "simple-rails-blog-cms",
       "ext": ".md",
-      "excerpt": "<p>2016-08-22-simple-rails-blog-cms.md</p>\n\n"
+      "excerpt": "<p>2016-08-22-simple-rails-blog-cms.md</p>\n\n",
+      "disqus_id": "8be385fc37cb44f177afc0a10771729a"
     },
     {
       "draft": false,
@@ -160,6 +170,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/letterz.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Letterz",
       "date": "2015-06-11 01:00:00 -0400",
       "tags": [
@@ -168,7 +179,8 @@
       ],
       "slug": "letterz",
       "ext": ".md",
-      "excerpt": "<p>Letterz is just a fun little game I wanted to create while testing out Node.js modules. The idea behind it is quite simple.</p>\n\n"
+      "excerpt": "<p>Letterz is just a fun little game I wanted to create while testing out Node.js modules. The idea behind it is quite simple.</p>\n\n",
+      "disqus_id": "fb73f7364b958d8bf368db2e7f2949c4"
     },
     {
       "draft": false,
@@ -181,6 +193,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/javascript-html-entity-encoding-and-decoding.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "JavaScript HTML Entity Encoding and Decoding",
       "date": "2015-06-10 01:00:00 -0400",
       "tags": [
@@ -190,7 +203,8 @@
       ],
       "slug": "javascript-html-entity-encoding-and-decoding",
       "ext": ".md",
-      "excerpt": "<p>Recently I was presented with the problem of decoding and encoding HTML character entities with JavaScript. The task seems simple! However there are a few gotchas that I’d like to point out as well as show a bit of code that performs the task.</p>\n\n"
+      "excerpt": "<p>Recently I was presented with the problem of decoding and encoding HTML character entities with JavaScript. The task seems simple! However there are a few gotchas that I’d like to point out as well as show a bit of code that performs the task.</p>\n\n",
+      "disqus_id": "3e92b9cac6589c058d8b8ee75d003ec1"
     },
     {
       "draft": false,
@@ -203,6 +217,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/createjs-2d-rectangle-collision-detection.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "CreateJS 2D Rectangle Collision Detection",
       "date": "2015-06-09 01:00:00 -0400",
       "tags": [
@@ -210,7 +225,8 @@
       ],
       "slug": "createjs-2d-rectangle-collision-detection",
       "ext": ".md",
-      "excerpt": "<p>Ever wonder how 2D games know if your player is hit by that enemy over there?</p>\n\n"
+      "excerpt": "<p>Ever wonder how 2D games know if your player is hit by that enemy over there?</p>\n\n",
+      "disqus_id": "ec6c26fa5e40a11da5ce40b3e5d36def"
     },
     {
       "draft": false,
@@ -223,6 +239,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/simple-createjs-space-shooter.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Simple CreateJS Space Shooter",
       "date": "2015-06-08 01:00:00 -0400",
       "tags": [
@@ -231,7 +248,8 @@
       ],
       "slug": "simple-createjs-space-shooter",
       "ext": ".md",
-      "excerpt": "<p>My quick little space shooter. The game can be played <a href=\"https://jsfiddle.net/BideoWego/jashqc71/\" target=\"_blank\">here</a>.</p>\n\n"
+      "excerpt": "<p>My quick little space shooter. The game can be played <a href=\"https://jsfiddle.net/BideoWego/jashqc71/\" target=\"_blank\">here</a>.</p>\n\n",
+      "disqus_id": "5ed5946df2e392e3d6f99c55da8e5d1d"
     },
     {
       "draft": false,
@@ -244,6 +262,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/php-random-password-generator.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "PHP Random Password Generator",
       "date": "2015-06-07 01:00:00 -0400",
       "tags": [
@@ -252,7 +271,8 @@
       ],
       "slug": "php-random-password-generator",
       "ext": ".md",
-      "excerpt": "<p>A while ago I decided to write a bit of PHP that generates a random password according to common password requirements.</p>\n\n"
+      "excerpt": "<p>A while ago I decided to write a bit of PHP that generates a random password according to common password requirements.</p>\n\n",
+      "disqus_id": "db0cd96bd4bd8386df10dcb29f3edcde"
     },
     {
       "draft": false,
@@ -265,6 +285,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/binary-search-algorithm.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Binary Search Algorithm",
       "date": "2015-06-06 01:00:00 -0400",
       "tags": [
@@ -273,7 +294,8 @@
       ],
       "slug": "binary-search-algorithm",
       "ext": ".md",
-      "excerpt": "<p>A <a href=\"https://en.wikipedia.org/wiki/Binary_search_algorithm\" target=\"_blank\">Binary Search</a> sounds incredibly intimidating. However, follows a very logical set of rules that perform an extremely efficient task.</p>\n\n"
+      "excerpt": "<p>A <a href=\"https://en.wikipedia.org/wiki/Binary_search_algorithm\" target=\"_blank\">Binary Search</a> sounds incredibly intimidating. However, follows a very logical set of rules that perform an extremely efficient task.</p>\n\n",
+      "disqus_id": "6699059618b5722423b9b5aadcf11280"
     },
     {
       "draft": false,
@@ -286,6 +308,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/bubble-sort-algorithm.jpg"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "Bubble Sort Algorithm",
       "date": "2015-06-05 01:00:00 -0400",
       "tags": [
@@ -293,7 +316,8 @@
       ],
       "slug": "bubble-sort-algorithm",
       "ext": ".md",
-      "excerpt": "<p>I decided with my lack of computer science knowledge it was time to test out implementing a few algorithms commonly used in the computer science world.</p>\n\n"
+      "excerpt": "<p>I decided with my lack of computer science knowledge it was time to test out implementing a few algorithms commonly used in the computer science world.</p>\n\n",
+      "disqus_id": "bd0855a5f81a1341b3606166628a91e7"
     },
     {
       "draft": false,
@@ -306,6 +330,7 @@
         "url": "https://s3.amazonaws.com/bw.bideowego/images/css3-border-radius-transitions.png"
       },
       "css_id": "posts-show",
+      "comments": true,
       "title": "CSS3 Border Radius Transitions",
       "date": "2015-06-04 03:00:00 -0400",
       "tags": [
@@ -314,7 +339,8 @@
       ],
       "slug": "css3-border-radius-transitions",
       "ext": ".md",
-      "excerpt": "<p><a href=\"http://jsfiddle.net\" target=\"_blank\">JS Fiddle</a> is a great environment to test out your HTML, CSS and JavaScript. It is feature rich and provides a way for developers to share live code demos without needing to host it themselves.</p>\n\n"
+      "excerpt": "<p><a href=\"http://jsfiddle.net\" target=\"_blank\">JS Fiddle</a> is a great environment to test out your HTML, CSS and JavaScript. It is feature rich and provides a way for developers to share live code demos without needing to host it themselves.</p>\n\n",
+      "disqus_id": "5e74062b589b2b2e36de9d22a7ed9f14"
     }
   ],
   "static_files": [

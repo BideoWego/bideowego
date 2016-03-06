@@ -28,11 +28,14 @@ layout: default
     <div class="post-image">
       <img class="img-responsive" src="{{ page.image.url }}" alt="Image">
     </div>
+
     <article itemscope itemtype="http://schema.org/BlogPosting">
       <div itemprop="articleBody">
         {{ content }}
       </div>
     </article>
+
+    {% include disqus.html %}
   </div>
 </div>
 

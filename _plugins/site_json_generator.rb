@@ -1,10 +1,10 @@
 require 'json'
 
-module MyGenerator
+
+module SiteJSON
   class Generator < Jekyll::Generator
     def generate(site)
       json = {}
-
 
       json[:categories] = []
       json[:tags] = []

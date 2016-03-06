@@ -35,6 +35,10 @@ kramdown:
 permalink: /:title
 
 
+# ----------------------------------------
+# Defaults
+# ----------------------------------------
+
 defaults:
   -
     scope:
@@ -45,6 +49,7 @@ defaults:
       image:
         url: https://s3.amazonaws.com/bw.bideowego/images/bw.png
       css_id: posts-show
+      comments: true
 
 
 
