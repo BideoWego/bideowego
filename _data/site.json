@@ -1,9 +1,10 @@
 {
   "categories": [
+    "Algorithm",
+    "Math",
     "Git",
     "Bash",
     "Computer Science",
-    "Algorithm",
     "SQL",
     "HTML",
     "CSS",
@@ -17,10 +18,12 @@
     "Sorting"
   ],
   "tags": [
+    "javascript",
+    "ruby",
+    "base-26",
     "bashrc",
     "dot-files",
     "linked-list",
-    "ruby",
     "optimization",
     "time-series",
     "ecommerce",
@@ -39,11 +42,34 @@
     "random",
     "search",
     "binary",
-    "javascript",
     "transition",
     "animation"
   ],
   "posts": [
+    {
+      "draft": false,
+      "categories": [
+        "Algorithm",
+        "Math"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/base-26-conversion.jpg"
+      },
+      "css_id": "posts-show",
+      "comments": true,
+      "title": "Base 26 Conversion",
+      "date": "2016-03-12 00:00:00 -0500",
+      "tags": [
+        "javascript",
+        "ruby",
+        "base-26"
+      ],
+      "slug": "base-26-conversion",
+      "ext": ".md",
+      "excerpt": "<p>I was working on a project that used <a href=\"https://www.google.com/sheets/about/\">Google spreadsheets</a>\nto store data. The catch was that the API wrapper referred to the columns in\nthe spreadsheet by number. However, columns in spreadsheets are named with\nletters. Once <code class=\"highlighter-rouge\">Z</code> is reached the next column is prefixed with an <code class=\"highlighter-rouge\">A</code> so it\nappears as <code class=\"highlighter-rouge\">AA</code>. This is <a href=\"http://www.minus40.info/sky/alphabetcountdec.html\">base 26</a>.</p>\n\n",
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-f07ef0c4c18473a77ebe6349c8cc1863"
+    },
     {
       "draft": false,
       "categories": [
@@ -65,7 +91,7 @@
       "slug": "git-home",
       "ext": ".md",
       "excerpt": "<p>I’ve decided to share a concept that is already being used in the wild by various developers. The concept is version controlling your precious dot files.</p>\n\n",
-      "disqus_id": "024b3fa8f9eb59fbba1022ac0c3c7467"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-024b3fa8f9eb59fbba1022ac0c3c7467"
     },
     {
       "draft": false,
@@ -88,7 +114,7 @@
       "slug": "reversing-a-linked-list-in-a-single-loop",
       "ext": ".md",
       "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list\nwhere each node only has a reference to it’s next node.</p>\n\n",
-      "disqus_id": "db86ad241a4f2dd56be5c0a41a5a495a"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-db86ad241a4f2dd56be5c0a41a5a495a"
     },
     {
       "draft": false,
@@ -110,7 +136,7 @@
       "slug": "time-series-data-with-sql-group-by",
       "ext": ".md",
       "excerpt": "<p>SQL, RDBMS, TL;DR.</p>\n\n",
-      "disqus_id": "63d5a901c4887f147acea26569859179"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-63d5a901c4887f147acea26569859179"
     },
     {
       "draft": false,
@@ -133,7 +159,7 @@
       "slug": "viking-mock-ecommerce-layout",
       "ext": ".md",
       "excerpt": "<p>A store layout for an eCommerce website allowing Vikings to purchase the axes they require to… be Vikings of course.</p>\n\n",
-      "disqus_id": "79889f3b562f398225e36bc5a138b036"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-79889f3b562f398225e36bc5a138b036"
     },
     {
       "draft": false,
@@ -156,7 +182,7 @@
       "slug": "simple-rails-blog-cms",
       "ext": ".md",
       "excerpt": "<p>2016-08-22-simple-rails-blog-cms.md</p>\n\n",
-      "disqus_id": "8be385fc37cb44f177afc0a10771729a"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-8be385fc37cb44f177afc0a10771729a"
     },
     {
       "draft": false,
@@ -180,7 +206,7 @@
       "slug": "letterz",
       "ext": ".md",
       "excerpt": "<p>Letterz is just a fun little game I wanted to create while testing out Node.js modules. The idea behind it is quite simple.</p>\n\n",
-      "disqus_id": "fb73f7364b958d8bf368db2e7f2949c4"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-fb73f7364b958d8bf368db2e7f2949c4"
     },
     {
       "draft": false,
@@ -204,7 +230,7 @@
       "slug": "javascript-html-entity-encoding-and-decoding",
       "ext": ".md",
       "excerpt": "<p>Recently I was presented with the problem of decoding and encoding HTML character entities with JavaScript. The task seems simple! However there are a few gotchas that I’d like to point out as well as show a bit of code that performs the task.</p>\n\n",
-      "disqus_id": "3e92b9cac6589c058d8b8ee75d003ec1"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-3e92b9cac6589c058d8b8ee75d003ec1"
     },
     {
       "draft": false,
@@ -226,7 +252,7 @@
       "slug": "createjs-2d-rectangle-collision-detection",
       "ext": ".md",
       "excerpt": "<p>Ever wonder how 2D games know if your player is hit by that enemy over there?</p>\n\n",
-      "disqus_id": "ec6c26fa5e40a11da5ce40b3e5d36def"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-ec6c26fa5e40a11da5ce40b3e5d36def"
     },
     {
       "draft": false,
@@ -249,7 +275,7 @@
       "slug": "simple-createjs-space-shooter",
       "ext": ".md",
       "excerpt": "<p>My quick little space shooter. The game can be played <a href=\"https://jsfiddle.net/BideoWego/jashqc71/\" target=\"_blank\">here</a>.</p>\n\n",
-      "disqus_id": "5ed5946df2e392e3d6f99c55da8e5d1d"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-5ed5946df2e392e3d6f99c55da8e5d1d"
     },
     {
       "draft": false,
@@ -272,7 +298,7 @@
       "slug": "php-random-password-generator",
       "ext": ".md",
       "excerpt": "<p>A while ago I decided to write a bit of PHP that generates a random password according to common password requirements.</p>\n\n",
-      "disqus_id": "db0cd96bd4bd8386df10dcb29f3edcde"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-db0cd96bd4bd8386df10dcb29f3edcde"
     },
     {
       "draft": false,
@@ -295,7 +321,7 @@
       "slug": "binary-search-algorithm",
       "ext": ".md",
       "excerpt": "<p>A <a href=\"https://en.wikipedia.org/wiki/Binary_search_algorithm\" target=\"_blank\">Binary Search</a> sounds incredibly intimidating. However, follows a very logical set of rules that perform an extremely efficient task.</p>\n\n",
-      "disqus_id": "6699059618b5722423b9b5aadcf11280"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-6699059618b5722423b9b5aadcf11280"
     },
     {
       "draft": false,
@@ -317,7 +343,7 @@
       "slug": "bubble-sort-algorithm",
       "ext": ".md",
       "excerpt": "<p>I decided with my lack of computer science knowledge it was time to test out implementing a few algorithms commonly used in the computer science world.</p>\n\n",
-      "disqus_id": "bd0855a5f81a1341b3606166628a91e7"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-bd0855a5f81a1341b3606166628a91e7"
     },
     {
       "draft": false,
@@ -340,7 +366,7 @@
       "slug": "css3-border-radius-transitions",
       "ext": ".md",
       "excerpt": "<p><a href=\"http://jsfiddle.net\" target=\"_blank\">JS Fiddle</a> is a great environment to test out your HTML, CSS and JavaScript. It is feature rich and provides a way for developers to share live code demos without needing to host it themselves.</p>\n\n",
-      "disqus_id": "5e74062b589b2b2e36de9d22a7ed9f14"
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-5e74062b589b2b2e36de9d22a7ed9f14"
     }
   ],
   "static_files": [

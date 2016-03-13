@@ -7,10 +7,12 @@ module Disqus
     def generate(site)
       json = {}
 
+      site_md5 = Digest::MD5.new.hexdigest(site.config['title'])
 
       site.posts.docs.reverse.each do |doc|
         slug = doc.data['slug']
-        disqus_id = Digest::MD5.new.hexdigest(slug)
+        slug_md5 = Digest::MD5.new.hexdigest(slug)
+        disqus_id = "#{site_md5}-#{slug_md5}"
         json[slug] = disqus_id
         doc.data['disqus_id'] = disqus_id
       end
