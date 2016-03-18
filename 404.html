@@ -6,14 +6,14 @@ css_id: not-found
 <div id="flash" class="alert alert-danger">
   <b>404 Not Found</b>
   <br>
-  One time, I was looking for an internet and I didn't finded it.
+  {{ site.not_found.message }}
 </div>
 
 <!-- Header Site Title -->
 <header class="page-header">
   <h1 class="site-title">
     <a href="/">
-      Bideo Wego
+      {{ site.title }}
     </a>
   </h1>
 </header>
@@ -26,10 +26,10 @@ css_id: not-found
       <!-- Nav Left -->
       <ul class="nav nav-stacked">
         <li>
-          <a href="/blog">Blog</a>
+          <a href="{{ site.data.pages[1].slug }}">{{ site.data.pages[1].title }}</a>
         </li>
         <li>
-          <a href="/games">Games</a>
+          <a href="{{ site.data.pages[2].slug }}">{{ site.data.pages[2].title }}</a>
         </li>
       </ul>
 
@@ -38,7 +38,7 @@ css_id: not-found
       
       <!-- Center Image Logo -->
       <div class="image-container">
-        <img class="img-responsive" src="https://s3.amazonaws.com/bw.bideowego/images/404.gif" alt="Logo">
+        <img class="img-responsive" src="{{ site.not_found.image.url }}" alt="Logo">
       </div>
 
     </div>
@@ -47,10 +47,10 @@ css_id: not-found
       <!-- Nav Right -->
       <ul class="nav nav-stacked">
         <li>
-          <a href="/projects">Projects</a>
+          <a href="{{ site.data.pages[3].slug }}">{{ site.data.pages[3].title }}</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="{{ site.data.pages[4].slug }}">{{ site.data.pages[4].title }}</a>
         </li>
       </ul>
       
@@ -60,7 +60,7 @@ css_id: not-found
   <!-- Tag Line -->
   <div class="tag-line">
     <h2>
-      Programmatic creativity that is always developing
+      {{ site.description }}
     </h2>
   </div>
 </div>
