@@ -16,6 +16,7 @@ email: bideowego@gmail.com
 description: > 
   Programmatic creativity that is always developing
 url: http://bideowego.com
+
 logo:
   full:
     url: https://s3.amazonaws.com/bw.bideowego/images/bw.png
@@ -23,6 +24,11 @@ logo:
     url: /favicon-194x194.png
   thumbnail:
     url: /favicon-32x32.png
+
+not_found:
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/404.gif
+  message: One time I was looking for an internet, but I didn't finded it.
 
 
 # ----------------------------------------

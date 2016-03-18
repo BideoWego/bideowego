@@ -4,51 +4,24 @@
   <!-- Site Map -->
   <div class="site-map">
     
-    <a href="/">
-      Home
-    </a>
-    <a href="/blog">
-      Blog
-    </a>
-    <a href="/projects">
-      Projects
-    </a>
-    <a href="/games">
-      Games
-    </a>
-    <a href="/about">
-      About
-    </a>
+    {% for page in site.data.pages %}
+
+      <a href="/{{ page.slug }}">{{ page.title }}</a>
+
+    {% endfor %}
 
   </div>
 
   <!-- Social Links -->
   <div class="social-links">
 
-    <a href="{{ site.data.social_networks.github.url }}">
-      <i class="fa fa-github"></i>
-    </a>
-    <a href="{{ site.data.social_networks.soundcloud.url }}">
-      <i class="fa fa-soundcloud"></i>
-    </a>
-    <a href="{{ site.data.social_networks.facebook.url }}">
-      <i class="fa fa-facebook"></i>
-    </a>
-    <a href="{{ site.data.social_networks.twitter.url }}">
-      <i class="fa fa-twitter"></i>
-    </a>
-    <a href="{{ site.data.social_networks.youtube.url }}">
-      <i class="fa fa-youtube-play"></i>
-    </a>
-    <a href="{{ site.data.social_networks.googleplus.url }}">
-      <i class="fa fa-google-plus"></i>
-    </a>
-    <a href="{{ site.data.social_networks.instagram.url }}">
-      <i class="fa fa-instagram"></i>
-    </a>
-    <a href="{{ site.data.social_networks.linkedin.url }}">
-      <i class="fa fa-linkedin"></i>
-    </a>
+    {% for social_network in site.data.social_networks %}
+
+      <a href="{{ social_network.url }}">
+        <i class="fa fa-{{ social_network.icon }}"></i>
+      </a>
+
+    {% endfor %}
 
   </div>
 

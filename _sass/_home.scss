@@ -43,7 +43,8 @@
 }
 
 @media only screen and (max-width: $tablet-width - 1) {
-  #home {
+  #home,
+  #not-found {
     // Mobile view has bottom margin
     main {
       margin-bottom: 64px;

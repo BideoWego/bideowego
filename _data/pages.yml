@@ -1,0 +1,22 @@
+---
+
+# ----------------------------------------
+# Pages
+# ----------------------------------------
+
+-
+  title: Home
+  slug: ''
+-
+  title: Blog
+  slug: blog
+-
+  title: Projects
+  slug: projects
+-
+  title: Games
+  slug: games
+-
+  title: About
+  slug: about
+
