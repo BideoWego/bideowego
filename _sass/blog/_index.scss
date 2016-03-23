@@ -2,5 +2,36 @@
 // Blog Index
 // ----------------------------------------
 
-#blog-index {}
+#blog-index {
+  .tab-link-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .tab-pane:not(#tab-posts) a {
+    font-size: 20px;
+    @include transition-border-y;
+  }
+
+  #search-form {
+    position: relative;
+  }
+
+  .delete-search-q {
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    position: absolute;
+    color: $danger;
+
+    i {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
+  }
+}
 

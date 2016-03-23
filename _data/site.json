@@ -67,7 +67,7 @@
       ],
       "slug": "base-26-conversion",
       "ext": ".md",
-      "excerpt": "<p>I was working on a project that used <a href=\"https://www.google.com/sheets/about/\">Google spreadsheets</a>\nto store data. The catch was that the API wrapper referred to the columns in\nthe spreadsheet by number. However, columns in spreadsheets are named with\nletters. Once <code class=\"highlighter-rouge\">Z</code> is reached the next column is prefixed with an <code class=\"highlighter-rouge\">A</code> so it\nappears as <code class=\"highlighter-rouge\">AA</code>. This is <a href=\"http://www.minus40.info/sky/alphabetcountdec.html\">base 26</a>.</p>\n\n",
+      "excerpt": "<p>I was working on a project that used <a href=\"https://www.google.com/sheets/about/\">Google spreadsheets</a> to store data. The catch was that the API wrapper referred to the columns in the spreadsheet by number. However, columns in spreadsheets are named with letters. Once <code class=\"highlighter-rouge\">Z</code> is reached the next column is prefixed with an <code class=\"highlighter-rouge\">A</code> so it appears as <code class=\"highlighter-rouge\">AA</code>. This is <a href=\"http://www.minus40.info/sky/alphabetcountdec.html\">base 26</a>.</p>\n\n",
       "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-f07ef0c4c18473a77ebe6349c8cc1863"
     },
     {
@@ -113,7 +113,7 @@
       ],
       "slug": "reversing-a-linked-list-in-a-single-loop",
       "ext": ".md",
-      "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list\nwhere each node only has a reference to it’s next node.</p>\n\n",
+      "excerpt": "<p>Recently I wanted to refactor some code of mine that reverses an linked list where each node only has a reference to it’s next node.</p>\n\n",
       "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-db86ad241a4f2dd56be5c0a41a5a495a"
     },
     {
