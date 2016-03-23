@@ -7,18 +7,10 @@ categories: [Algorithm, Math]
 tags: [javascript, ruby, base-26]
 ---
 
-I was working on a project that used [Google spreadsheets](https://www.google.com/sheets/about/)
-to store data. The catch was that the API wrapper referred to the columns in
-the spreadsheet by number. However, columns in spreadsheets are named with
-letters. Once `Z` is reached the next column is prefixed with an `A` so it
-appears as `AA`. This is [base 26](http://www.minus40.info/sky/alphabetcountdec.html).
+I was working on a project that used [Google spreadsheets](https://www.google.com/sheets/about/) to store data. The catch was that the API wrapper referred to the columns in the spreadsheet by number. However, columns in spreadsheets are named with letters. Once `Z` is reached the next column is prefixed with an `A` so it appears as `AA`. This is [base 26](http://www.minus40.info/sky/alphabetcountdec.html).
 
 
-In order to make the conversion of number to column completely dynamic
-I had to convert the number to its base 26 letter value. It is also
-helpful to be able to reverse the operation whenever desired.
-This means taking the string `AA` for instance and converting it into `27`.
-
+In order to make the conversion of number to column completely dynamic I had to convert the number to its base 26 letter value. It is also helpful to be able to reverse the operation whenever desired. This means taking the string `AA` for instance and converting it into `27`.
 
 Originally I wrote this code in Ruby, however I wanted to port it to JavaScript.
 
@@ -33,9 +25,7 @@ Originally I wrote this code in Ruby, however I wanted to port it to JavaScript.
 ## Generating a Char Range
 
 
-If you've ever worked with [Ruby ranges](http://ruby-doc.org/core-2.3.0/Range.html)
-you know how easy it is to generate a character range in Ruby.
-It is also just as simple to convert that range into an array.
+If you've ever worked with [Ruby ranges](http://ruby-doc.org/core-2.3.0/Range.html) you know how easy it is to generate a character range in Ruby. It is also just as simple to convert that range into an array.
 
 ```ruby
 # Ruby
@@ -43,14 +33,11 @@ It is also just as simple to convert that range into an array.
 alpha = ('a'..'z').to_a
 ```
 
-Not so much in JavaScript. There is no native way to generate a char range in JavaScript.
-So the first step was to generate an array of all the characters from `a` to `z`.
+Not so much in JavaScript. There is no native way to generate a char range in JavaScript. So the first step was to generate an array of all the characters from `a` to `z`.
 
-While JavaScript doesn't have native ranges, it does have some easy to work with
-unicode functions. Specifically the [`string.charCodeAt` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt).
+While JavaScript doesn't have native ranges, it does have some easy to work with unicode functions. Specifically the [`string.charCodeAt` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt).
 
-This bit of code works because the unicode integer representations of characters are in
-alphabetical and numerical order.
+This bit of code works because the unicode integer representations of characters are in alphabetical and numerical order.
 
 ```javascript
 // JavaScript
@@ -90,10 +77,7 @@ This gives us all the tools we need to do base 26 conversions.
 ## Base 10 Integer to Base 26 String
 
 
-Now comes the fun part (I bet you were waiting for the fun part).
-Let's take that char array and use it to convert an integer like
-`334123303` into `abcdefg`. Why? Because you never know when you might
-need to do that.
+Now comes the fun part (I bet you were waiting for the fun part). Let's take that char array and use it to convert an integer like `334123303` into `abcdefg`. Why? Because you never know when you might need to do that.
 
 
 First we need the array of alphabetic chars to work with.
@@ -108,26 +92,13 @@ We'll also need a variable to which we'll concatenate our various letters.
 var result = '';
 ```
 
-Now it's time to convert a given string to an integer.
-For our purposes we'll assume the string is all lowercase alphabetical characters.
+Now it's time to convert a given string to an integer. For our purposes we'll assume the string is all lowercase alphabetical characters.
 
-Let's think about this strategically.
-We need to think in base 26.
-To quickly illustrate what that means, let's think in binary (base 2).
-The number `2` is represented by `10`.
-This is because what we consider to be the tens position now has a value of `2`
-for each increment.
-If it were base 26 then each increment of the tens position would have a value of `26`.
-However, there aren't 26 different numbers to represent all of those values in
-the ones place.
+Let's think about this strategically. We need to think in base 26. To quickly illustrate what that means, let's think in binary (base 2). The number `2` is represented by `10`. This is because what we consider to be the tens position now has a value of `2` for each increment. If it were base 26 then each increment of the tens position would have a value of `26`. However, there aren't 26 different numbers to represent all of those values in the ones place.
 
-The solution to this problem is to use letters in place of numbers.
-There are 26 letters so it works perfectly.
-This means `3` will now be `c` (this is assuming `a` is `1`).
+The solution to this problem is to use letters in place of numbers. There are 26 letters so it works perfectly. This means `3` will now be `c` (this is assuming `a` is `1`).
 
-If we were finding the value of each position in base 10 we'd need to
-divide by `10` until we get `0`, each time taking the remainder as the value
-of that position.
+If we were finding the value of each position in base 10 we'd need to divide by `10` until we get `0`, each time taking the remainder as the value of that position.
 
 Example:
 
@@ -140,11 +111,7 @@ var remainder = n % 10;
 //=> 4
 ```
 
-We repeat this process and eventually we'll get the value of each position,
-`4`, `3`, `2`, `1`.
-However we want letters not numbers and we're using base 26 not base 10.
-Luckily the approach doesn't change much.
-Here is the function that will convert an integer to a base 26 string:
+We repeat this process and eventually we'll get the value of each position, `4`, `3`, `2`, `1`. However we want letters not numbers and we're using base 26 not base 10. Luckily the approach doesn't change much. Here is the function that will convert an integer to a base 26 string:
 
 
 ```javascript
@@ -179,29 +146,15 @@ function toString26(num) {
 }
 ```
 
-The key take away here is the use of the quotient and remainder.
-The quotient represents what place we're in.
-The remainder represents the value of that place.
+The key take away here is the use of the quotient and remainder. The quotient represents what place we're in. The remainder represents the value of that place.
 
-When we reach a quotient of `0` we know we're done.
-No more places to divide by `26`.
+When we reach a quotient of `0` we know we're done. No more places to divide by `26`.
 
-We compensate for the array being zero indexed by subtracting `1` from the
-quotient each iteration.
-So `26` will become `25` and return a value of `z` at index `25` of the array.
+We compensate for the array being zero indexed by subtracting `1` from the quotient each iteration. So `26` will become `25` and return a value of `z` at index `25` of the array.
 
-As you saw above, we get the ones place first, tens place next, and etc.
-So we prepend the value to our result string to get the correct order.
+As you saw above, we get the ones place first, tens place next, and etc. So we prepend the value to our result string to get the correct order.
 
-That's it! This approach is also fast.
-Indexing into an array is very fast, `O(1)`.
-In `toString26` we're dividing in our iteration so we're chunking large numbers
-down by a big amount.
-Each time we iterate the new number we're dividing is the `quotient`
-from the last iteration.
-The time complexity comes out to be `O(log n)`.
-It's worth noting that the base of the `log` is `26` and makes this
-faster than a base of `2`. But it is a constant and therefore left out.
+That's it! This approach is also fast.Indexing into an array is very fast, `O(1)`.In `toString26` we're dividing in our iteration so we're chunking large numbersdown by a big amount.Each time we iterate the new number we're dividing is the `quotient`from the last iteration.The time complexity comes out to be `O(log n)`.It's worth noting that the base of the `log` is `26` and makes thisfaster than a base of `2`. But it is a constant and therefore left out.
 
 
 
@@ -213,30 +166,18 @@ faster than a base of `2`. But it is a constant and therefore left out.
 
 ## Base 26 String to Base 10 Integer
 
-
-Next let's convert that integer back into a base 26 string.
-We'll need a similar group of variables to work with at the beginning.
-An alphabet array and a result integer to accumulate the sum.
+Next let's convert that integer back into a base 26 string. We'll need a similar group of variables to work with at the beginning. An alphabet array and a result integer to accumulate the sum.
 
 ```javascript
 var alpha = charRange('a', 'z');
 var result = 0;
 ```
 
+Next we'll need to iterate over each of the characters of the string. Each character represents a position in a base 26 number. This means the last position represents `n` multiplied by `26` to the power of it's string index `0`. This will boil down to `n * 1` because any number to the power `0` is `1`. Next we'll get this equation `n * 26`, and then `n * (26^2)`, and etc.
 
-Next we'll need to iterate over each of the characters of the string.
-Each character represents a position in a base 26 number.
-This means the last position represents
-`n` multiplied by `26` to the power of it's string index `0`.
-This will boil down to `n * 1` because any number to the power `0` is `1`.
-Next we'll get this equation `n * 26`, and then `n * (26^2)`, and etc.
+We'll compensate for the zero indexed array in this case by incrementing position. But we must do it **AFTER** we retrieve the letter from the `alpha` array.
 
-We'll compensate for the zero indexed array in this case by incrementing position.
-But we must do it **AFTER** we retrieve the letter from the `alpha` array.
-
-The trick to this bit of code is to iterate backwards over the string with `i`,
-but still have a forward iterator `j` to set the power of `26` by which we multiply
-the position.
+The trick to this bit of code is to iterate backwards over the string with `i`, but still have a forward iterator `j` to set the power of `26` by which we multiply the position.
 
 
 Here is the code:
@@ -277,25 +218,9 @@ function toInt26(str) {
   return result;
 }
 ```
+The time complexity of `toInt26` is `O(n)` where `n` is the length of the string passed to the function. Keep in mind that while `O(n)` is not a fast time complexity in this context it is completely acceptable and the function itself is very fast. A string of the entire alphabet produces an integer value of `256094574536617744129141650397448476`. The function above would only need `26` iterations to produce that number. While time complexities of `O(n)` can seem slow on the surface it is important to realize how they are applied to truly weigh their effectiveness.
 
-The time complexity of `toInt26` is `O(n)` where `n` is the length of
-the string passed to the function.
-Keep in mind that while `O(n)` is not a fast time complexity
-in this context it is completely acceptable and the function itself is
-very fast.
-A string of the entire alphabet produces an integer value of
-`256094574536617744129141650397448476`. The function above would only need
-`26` iterations to produce that number.
-While time complexities of `O(n)` can seem slow on the surface
-it is important to realize how they are applied to truly weigh
-their effectiveness.
-
-Also `O(n)` may be the time complexity in reference to the length of the string.
-However the underlying time complexity for `toInt26` is really `O(log n)`.
-This is because we are really iterating over a string representation of a number.
-Effectively, by analyzing each character in reverse we are performing a similar
-operation to `toString26` which has a time complexity of `O(log n)`.
-It depends on how you view the problem.
+Also `O(n)` may be the time complexity in reference to the length of the string. However the underlying time complexity for `toInt26` is really `O(log n)`. This is because we are really iterating over a string representation of a number. Effectively, by analyzing each character in reverse we are performing a similar operation to `toString26` which has a time complexity of `O(log n)`. It depends on how you view the problem.
 
 
 ## Test cases
@@ -338,13 +263,7 @@ console.log(str, num);
 //=> abcdefghijklm 103215959525275440
 ```
 
-
-**NOTE**: It has recently come to my attention that
-the JavaScript versions of these functions
-seem to stop working correctly around `'abcdefghijklmn'`.
-This has to do with JavaScript not supporting very large integers.
-Under the hood, integers that are larger than the max integer value
-are converted to scientific notation which breaks the function.
+**NOTE**: It has recently come to my attention that the JavaScript versions of these functions seem to stop working correctly around `'abcdefghijklmn'`. This has to do with JavaScript not supporting very large integers. Under the hood, integers that are larger than the max integer value are converted to scientific notation which breaks the function.
 
 A solution to this problem may appear later, but is a good talking point for the moment.
 
@@ -361,9 +280,7 @@ console.log(str, num);
 //=> abcdefghijkmcc 2683614947657161700 // <<<< WRONG!!!!
 ```
 
-Here's the kicker, the Ruby version of this code does **NOT**
-suffer from this side effect.
-This is providing that the `to_s26` method is defined on `Bignum` and `Fixnum`.
+Here's the kicker, the Ruby version of this code does **NOT** suffer from this side effect. This is providing that the `to_s26` method is defined on `Bignum` and `Fixnum`.
 
 Here is the Ruby code:
 
@@ -475,14 +392,9 @@ Yet another reason why Ruby is just awesome.
 
 ## Conclusion
 
-Math problems like this are interesting to implement in various languages.
-Each language provides a different interface to alter strings and work with
-various sizes of numbers.
+Math problems like this are interesting to implement in various languages. Each language provides a different interface to alter strings and work with various sizes of numbers.
 
-I found that implementing this algorithm in various languages gave me a deeper understanding
-of it's solution.
-It is also a great way to get familiar with the features and limitations of a language.
-I hope you enjoyed and learned something interesting.
+I found that implementing this algorithm in various languages gave me a deeper understanding of it's solution. It is also a great way to get familiar with the features and limitations of a language. I hope you enjoyed and learned something interesting.
 
 
 

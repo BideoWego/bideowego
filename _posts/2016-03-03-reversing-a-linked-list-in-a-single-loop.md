@@ -9,24 +9,15 @@ tags: [linked-list, ruby]
 
 
 
-Recently I wanted to refactor some code of mine that reverses an linked list
-where each node only has a reference to it's next node.
+Recently I wanted to refactor some code of mine that reverses an linked list where each node only has a reference to it's next node.
 
-My original code did this in 2 loops. It first added each node to an array,
-then reverse traversed the array and altered the nodes in reverse order.
+My original code did this in 2 loops. It first added each node to an array, then reverse traversed the array and altered the nodes in reverse order.
 
-I since then decided to refactor my code to do this in only 1 loop.
-While both would technically be called O(n) time or linear time.
-It is clear that 1 loop is better than 2 and more efficient in all possible ways.
+I since then decided to refactor my code to do this in only 1 loop. While both would technically be called O(n) time or linear time. It is clear that 1 loop is better than 2 and more efficient in all possible ways.
 
 I found a very elegant solution on this stack overflow post [here](http://stackoverflow.com/questions/22605050/reverse-singly-linked-list-java/22605190#22605190) and hacked it to suit my needs.
 
-Here is the code:
-(Note this is not the full class as it is missing
-add, remove, and insert methods)
-
-
-
+Here is the code: (Note this is not the full class as it is missing add, remove, and insert methods)
 
 
 ```ruby
@@ -57,12 +48,9 @@ end
 
 
 
-This is of course in Ruby and only for purposes of illustration for
-how data structures are implemented. In practice, a low level
-linked list would be implemented in C for speed and efficiency.
+This is of course in Ruby and only for purposes of illustration for how data structures are implemented. In practice, a low level linked list would be implemented in C for speed and efficiency.
 
-Here is a text based illustration of what is happening using this code
-when calling `reverse` on a linked list with 3 nodes.
+Here is a text based illustration of what is happening using this code when calling `reverse` on a linked list with 3 nodes.
 
 
 
@@ -152,17 +140,11 @@ last
 
 
 
-Iterating through the linked list this way effectively creates variables at
-each node that allow access to both the current node's previous node
-and next (already available by default definition of a linked list node).
+Iterating through the linked list this way effectively creates variables at each node that allow access to both the current node's previous node and next (already available by default definition of a linked list node).
 
 ## Conclusion
 
-It is always important to optimize your code to be more efficient and
-remove iterations when they are not necessary. Although this is fairly complex
-it is worth doing because assuming the linked list is low level functionality for
-implementing a hash table or another data structure, you'd want it to perform this
-type of functionality as quickly as possible.
+It is always important to optimize your code to be more efficient and remove iterations when they are not necessary. Although this is fairly complex it is worth doing because assuming the linked list is low level functionality for implementing a hash table or another data structure, you'd want it to perform this type of functionality as quickly as possible.
 
 
 
