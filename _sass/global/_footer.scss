@@ -1,0 +1,55 @@
+// ----------------------------------------
+// Footer
+// ----------------------------------------
+
+
+#main-footer {
+  margin-top: 64px;
+  margin-bottom: 128px;
+
+  .site-map,
+  .copyright,
+  .social-links {
+    text-align: center;
+    a {
+      @include transition-border-y;
+    }
+  }
+
+  .site-map {
+    a:before,
+    a:after {
+      content: "\0000a0";
+    }
+  }
+
+  .site-map,
+  .copyright {
+    font-size: 24px;
+  }
+
+  .social-links  {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 64px;
+  }
+}
+
+
+// Mobile View
+// ----------------------------------------
+
+@media only screen and (max-width: $tablet-width - 1) {
+  #main-footer .social-links {
+    letter-spacing: 8px;
+    font-size: 48px;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+// ----------------------------------------
+// Header
+// ----------------------------------------
+
+
+.site-title {
+  @include transition-border-x;
+  font-size: 96px;
+  text-align: center;
+}
+
+
+// Mobile
+// ----------------------------------------
+
+@media only screen and (max-width: $tablet-width - 1) {
+  .site-title {
+    font-size: 48px;
+  }
+}
+
