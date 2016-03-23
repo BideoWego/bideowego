@@ -37,8 +37,29 @@ a {
 // ----------------------------------------
 
 article {
-  max-width: 512px;
-  margin: 0 auto;
+  audio,
+  video,
+  img,
+  map,
+  area,
+  figure,
+  dl,
+  dt,
+  dd,
+  blockquote,
+  q,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    max-width: 512px;
+    margin: 1em auto 0 auto;
+  }
 
   p {
     text-indent: 2em;

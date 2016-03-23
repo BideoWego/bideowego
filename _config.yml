@@ -20,7 +20,14 @@ url: http://bideowego.com
 
 background:
   image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3.jpg
+    full:
+      url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3.jpg
+    md:
+      url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3-md.jpg
+    sm:
+      url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3-sm.jpg
+    xs:
+      url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3-xs.jpg
 
 logo:
   full:

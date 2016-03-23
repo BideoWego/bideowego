@@ -8,9 +8,6 @@ tags: [cms, tinymce]
 ---
 
 
-2016-08-22-simple-rails-blog-cms.md
-
-
 While working through the prep work of the <a href="http://www.vikingcodeschool.com" target="_blank">Viking Code School</a> program, I decided to write a simple blog CMS with <a href="http://rubyonrails.org" target="_blank">Ruby on Rails</a>.
 
 It has a few key features:

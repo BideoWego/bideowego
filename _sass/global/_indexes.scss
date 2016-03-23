@@ -21,7 +21,21 @@
 }
 
 
+@media only screen and (max-width: $tablet-width) {
+  .media-body,
+  .media-left,
+  .media-right {
+    display: block;
+  }
 
+  .media-left {
+    margin-bottom: 2em;
+  }
+
+  .media-body {
+    width: auto;
+  }
+}
 
 
 

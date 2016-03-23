@@ -6,17 +6,6 @@
 // Main
 // ----------------------------------------
 
-body {
-  background-image: 
-    radial-gradient(
-      circle,
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('{{ site.background.image.url }}');
-}
-
 
 @import
 
@@ -49,6 +38,29 @@ body {
     'global/syntax',
     'global/text'
 ;
+
+
+// Background Image
+// ----------------------------------------
+
+@media only screen and (min-width: $tablet-height) {
+  @include gradient-bg-image("{{ site.background.image.full.url }}");
+}
+
+@media only screen and (min-width: $tablet-width) and (max-width: $tablet-height - 1) {
+  @include gradient-bg-image("{{ site.background.image.md.url }}");
+}
+
+@media only screen and (min-width: $phone-height) and (max-width: $tablet-width - 1) {
+  @include gradient-bg-image("{{ site.background.image.sm.url }}");
+}
+
+@media only screen and (max-width: $phone-height - 1) {
+  @include gradient-bg-image("{{ site.background.image.xs.url }}");
+}
+
+
+
 
 
 
