@@ -59,7 +59,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Base 26 Conversion",
-      "date": "2016-03-12 00:00:00 -0500",
+      "date": "2016-03-12",
       "tags": [
         "javascript",
         "ruby",
@@ -83,7 +83,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Git Home",
-      "date": "2016-03-03 05:00:00 -0500",
+      "date": "2016-03-03",
       "tags": [
         "bashrc",
         "dot-files"
@@ -106,7 +106,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Reversing a Linked List in a Single Loop",
-      "date": "2016-03-03 02:00:00 -0500",
+      "date": "2016-03-03",
       "tags": [
         "linked-list",
         "ruby"
@@ -128,7 +128,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Time Series Data with SQL GROUP BY",
-      "date": "2015-10-06 04:13:00 -0400",
+      "date": "2015-10-06",
       "tags": [
         "optimization",
         "time-series"
@@ -151,7 +151,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Viking Mock eCommerce Layout",
-      "date": "2015-08-22 01:00:00 -0400",
+      "date": "2015-08-22",
       "tags": [
         "ecommerce",
         "responsive"
@@ -174,7 +174,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Simple Rails Blog CMS",
-      "date": "2015-08-22 01:00:00 -0400",
+      "date": "2015-08-22",
       "tags": [
         "cms",
         "tinymce"
@@ -198,7 +198,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Letterz",
-      "date": "2015-06-11 01:00:00 -0400",
+      "date": "2015-06-11",
       "tags": [
         "dictionary",
         "words"
@@ -221,7 +221,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "JavaScript HTML Entity Encoding and Decoding",
-      "date": "2015-06-10 01:00:00 -0400",
+      "date": "2015-06-10",
       "tags": [
         "html-entities",
         "encoding",
@@ -245,7 +245,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "CreateJS 2D Rectangle Collision Detection",
-      "date": "2015-06-09 01:00:00 -0400",
+      "date": "2015-06-09",
       "tags": [
         "collision-detection"
       ],
@@ -267,7 +267,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Simple CreateJS Space Shooter",
-      "date": "2015-06-08 01:00:00 -0400",
+      "date": "2015-06-08",
       "tags": [
         "space-shooter",
         "createjs"
@@ -290,7 +290,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "PHP Random Password Generator",
-      "date": "2015-06-07 01:00:00 -0400",
+      "date": "2015-06-07",
       "tags": [
         "password",
         "random"
@@ -313,7 +313,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Binary Search Algorithm",
-      "date": "2015-06-06 01:00:00 -0400",
+      "date": "2015-06-06",
       "tags": [
         "search",
         "binary"
@@ -336,7 +336,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "Bubble Sort Algorithm",
-      "date": "2015-06-05 01:00:00 -0400",
+      "date": "2015-06-05",
       "tags": [
         "javascript"
       ],
@@ -358,7 +358,7 @@
       "css_id": "posts-show",
       "comments": true,
       "title": "CSS3 Border Radius Transitions",
-      "date": "2015-06-04 03:00:00 -0400",
+      "date": "2015-06-04",
       "tags": [
         "transition",
         "animation"
@@ -368,6 +368,12 @@
       "excerpt": "<p><a href=\"http://jsfiddle.net\" target=\"_blank\">JS Fiddle</a> is a great environment to test out your HTML, CSS and JavaScript. It is feature rich and provides a way for developers to share live code demos without needing to host it themselves.</p>\n\n",
       "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-5e74062b589b2b2e36de9d22a7ed9f14"
     }
+  ],
+  "archives": [
+    "2016-03",
+    "2015-10",
+    "2015-08",
+    "2015-06"
   ],
   "static_files": [
     {
