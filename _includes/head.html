@@ -21,7 +21,7 @@
 
 
 <!-- Open Graph -->
-<meta name="twitter:card" content="{{ site.title }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
 {% for social_network in site.data.social_networks %}
   {% if social_network.name == 'twitter' %}
     <meta name="twitter:site" content="@{{ social_network.username }}"/>
@@ -34,9 +34,11 @@
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:url" content="{{ site.hostname }}{{ page.url}}"/>
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+<meta property="og:image" content="{% if page.image %}{{ page.image.url }}{% else %}{{ site.logo.full.url }}{% endif %}"/>
 <meta property="og:image:width" content="512"/>
 <meta property="og:image:height" content="512"/>
-<meta property="og:image" content="{% if page.image %}{{ page.image.url }}{% else %}{{ site.logo.full.url }}{% endif %}"/>
+
+
 
 
 
