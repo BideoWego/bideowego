@@ -33,3 +33,19 @@
   }
 }
 
+@mixin gradient-bg-image($url, $selector: body) {
+  #{$selector} {
+    background-image: 
+      radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("#{$url}");
+  }
+}
+
+
+
+

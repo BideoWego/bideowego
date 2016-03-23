@@ -12,7 +12,7 @@
       <br>
       <small>
         <i class="fa fa-calendar"></i>
-        {{ toDate(post.date) | date: 'EEEE MMMM d, yyyy' }}
+        {{ post.date | toDate | date: 'EEEE MMMM d, yyyy' }}
       </small>
     </h4>
     <p>

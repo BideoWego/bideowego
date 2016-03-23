@@ -17,8 +17,8 @@ BideoWego.controller('BlogCtrl',
       .then(function(response) {
         $scope.posts = response['data']['posts'];
         $scope.archives = response['data']['archives'];
-        $scope.categories = response['data']['categories'];
-        $scope.tags = response['data']['tags'];
+        $scope.categories = response['data']['categories'].sort();
+        $scope.tags = response['data']['tags'].sort();
       });
 
 

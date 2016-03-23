@@ -181,7 +181,7 @@
       ],
       "slug": "simple-rails-blog-cms",
       "ext": ".md",
-      "excerpt": "<p>2016-08-22-simple-rails-blog-cms.md</p>\n\n",
+      "excerpt": "<p>While working through the prep work of the <a href=\"http://www.vikingcodeschool.com\" target=\"_blank\">Viking Code School</a> program, I decided to write a simple blog CMS with <a href=\"http://rubyonrails.org\" target=\"_blank\">Ruby on Rails</a>.</p>\n\n",
       "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-8be385fc37cb44f177afc0a10771729a"
     },
     {
