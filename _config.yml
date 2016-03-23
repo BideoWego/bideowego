@@ -17,6 +17,10 @@ description: >
   Programmatic creativity that is always developing
 url: http://bideowego.com
 
+background:
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/bideowego-banner-3.jpg
+
 logo:
   full:
     url: https://s3.amazonaws.com/bw.bideowego/images/bw.png

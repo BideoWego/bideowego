@@ -33,7 +33,7 @@ css_id: blog-index
       <h2 class="text-center text-danger" ng-if="!filteredPosts.length">No results</h2>
 
       <!-- Post -->
-      <div class="post row" ng-repeat="post in filteredPosts = (posts | filter: q)" ng-if="posts.length" post></div><!-- post -->
+      <div class="row" ng-repeat="post in filteredPosts = (posts | filter: q)" ng-if="posts.length" post></div><!-- post -->
 
   </div>
 </div><!-- posts -->

@@ -20,7 +20,7 @@ css_id: games-index
     {% for game in site.data.games %}
 
       <!-- Game -->
-      <div class="game media">
+      <div class="media game index-item">
         <div class="media-left">
           <a href="{{ game.site }}">
             <img class="media-object img-circle" src="{{ game.image.url }}" alt="Image">
@@ -36,9 +36,9 @@ css_id: games-index
             </small>
           </h4>
           <div class="excerpt">
-            <p>
-              {{ game.description }}
-            </p>
+            <p>{{ game.description }}</p>
+            <p>View source on <a href="{{ game.github }}">Github</a></p>
+            <p>Play game the <a href="{{ game.site }}">here</a></p>
           </div>
         </div>
       </div>

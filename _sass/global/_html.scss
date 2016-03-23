@@ -1,0 +1,75 @@
+// ----------------------------------------
+// HTML Elements
+// ----------------------------------------
+
+
+// body
+// ----------------------------------------
+
+body {
+  font-size: 18px;
+  line-height: 1.75em;
+  font-family: "Open Sans", sans-serif;
+  color: $light;
+
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// a
+// ----------------------------------------
+
+a {
+  color: $light;
+
+  &:hover,
+  &:focus
+  &:active {
+    color: $primary;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+// article
+// ----------------------------------------
+
+article {
+  max-width: 512px;
+  margin: 0 auto;
+
+  p {
+    text-indent: 2em;
+  }
+}
+
+
+// h1-h6
+// ----------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+// p
+// ----------------------------------------
+
+p {
+  margin-bottom: 1.75em;
+}
+
+p a {
+  border-bottom: 1px solid $primary;
+}
+
+
+
+

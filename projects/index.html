@@ -21,7 +21,7 @@ css_id: projects-index
     {% for project in site.data.projects %}
     
       <!-- Project -->
-      <div class="project media">
+      <div class="media project index-item">
         <div class="media-left">
           <a href="{{ project.site }}">
             <img class="media-object img-circle" src="{{ project.image.url }}" alt="Image">
@@ -37,17 +37,9 @@ css_id: projects-index
             </small>
           </h4>
           <div class="excerpt">
-            <p>
-              {{ project.description }}
-
-              Checkout the code on Github
-              <a href="{{ project.github }}">here</a>
-              .
-
-              View the deployed app
-              <a href="{{ project.site }}">here</a>
-              .
-            </p>
+            <p>{{ project.description }}</p>
+            <p>Checkout the code on <a href="{{ project.github }}">Github</a>.</p>
+            <p>View the deployed app <a href="{{ project.site }}">here</a>.</p>
           </div>
         </div>
       </div>
