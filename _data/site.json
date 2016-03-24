@@ -527,6 +527,15 @@
       }
     },
     {
+      "name": "Uber Food Truck Challenge",
+      "description": "A coding challenge from Uber using the Google maps API and SF Open Data",
+      "github": "https://github.com/BideoWego/uber_food_truck_challenge",
+      "site": "https://uber-food-truck-challenge.herokuapp.com",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/uber-food-truck-challenge.jpg"
+      }
+    },
+    {
       "name": "Mousevc",
       "description": "A tiny MVC framework to jump start CLI apps. Gemified.",
       "github": "https://github.com/BideoWego/mousevc",
