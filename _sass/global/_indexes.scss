@@ -4,11 +4,11 @@
 
 .index-item {
   margin-bottom: 64px;
+}
 
-  .media-object {
-    width: 128px;
-    height: 128px;
-  }
+.media-object {
+  width: 256px;
+  height: 256px;
 }
 
 .media,
@@ -18,6 +18,18 @@
 
 .media-heading a {
   @include transition-border-y;
+}
+
+.media-left a .img-circle {
+  border: 4px solid $primary;
+  @include transition(border-radius 300ms ease-in-out);
+}
+
+.media-left a:focus .img-circle,
+.media-left a:active .img-circle,
+.media-left a:hover .img-circle{
+  border-radius: 5%;
+  @include transition(border-radius 300ms ease-in-out);
 }
 
 
@@ -34,6 +46,10 @@
 
   .media-body {
     width: auto;
+  }
+
+  .media-object {
+    margin: 0 auto;
   }
 }
 

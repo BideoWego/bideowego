@@ -2,14 +2,22 @@
 // Settings
 // ----------------------------------------
 
+@mixin transition($value) {
+  transition: $value;
+  -o-transition: $value;
+  -moz-transition: $value;
+  -webkit-transition: $value;
+}
+
 @mixin transition-border {
   border: 0 solid $light;
+  @include transition(border-width 300ms ease-in-out);
 
   &:hover,
   &:focus,
   &:active {
     background: transparent;
-    transition: border-width 300ms ease-in-out;
+    @include transition(border-width 300ms ease-in-out);
   }
 }
 
@@ -35,7 +43,7 @@
 
 @mixin gradient-bg-image($url, $selector: body) {
   #{$selector} {
-    background-image: 
+    background-image:
       radial-gradient(
         circle,
         rgba(0, 0, 0, 0.9),
