@@ -10,6 +10,7 @@ BideoWego.controller('BlogCtrl',
     $scope.archives = [];
     $scope.categories = [];
     $scope.tags = [];
+    $scope.order = { direction: '' };
     $scope.q = '';
 
 
@@ -36,6 +37,11 @@ BideoWego.controller('BlogCtrl',
 
     $scope.clearQ = function() {
       $scope.q = '';
+    };
+
+
+    $scope.setOrder = function() {
+      $scope.order.direction = ($scope.order.direction === '') ? '-' : '';
     };
 
   }]);

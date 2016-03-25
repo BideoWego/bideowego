@@ -73,14 +73,18 @@ css_id: blog-index
               <input type="text" class="form-control" ng-model="q" placeholder="Search..." autofocus="true">
               <a href="" ng-click="clearQ()" ng-if="q.length" class="delete-search-q"><i class="fa fa-times"></i></a>
             </div>
+            <div class="form-group clearfix">
+              <a class="btn btn-primary pull-right" href="" ng-click="setOrder()" ng-model="order.direction">
+                <i class="fa" ng-class="(order.direction === '') ? 'fa-caret-down' : 'fa-caret-up'"></i>
+              </a>
+            </div>
           </form>
 
           <br>
-
           <h2 class="text-center text-danger" ng-if="!filteredPosts.length">No search results...</h2>
 
           <!-- Post -->
-          <div class="row" ng-repeat="post in filteredPosts = (posts | filter: q)" ng-if="posts.length" post></div><!-- post -->
+          <div class="row" ng-repeat="post in filteredPosts = (posts | filter: q | orderBy: order.direction)" ng-if="posts.length" post></div><!-- post -->
 
       </div>
     </div><!-- posts -->
