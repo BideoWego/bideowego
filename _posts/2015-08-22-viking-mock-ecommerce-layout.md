@@ -4,7 +4,7 @@ date: 2015-08-22 00:00:00 -0500
 image:
   url: https://s3.amazonaws.com/bw.bideowego/images/viking-mock-ecommerce-layout.png
 categories: [HTML, CSS]
-tags: [ecommerce, responsive]
+tags: [ecommerce, responsive-design]
 ---
 
 

@@ -3,8 +3,8 @@ title: Reversing a Linked List in a Single Loop
 date: 2016-03-03 02:00:00 -0500
 image:
   url: https://s3.amazonaws.com/bw.bideowego/images/reversing-a-linked-list-in-a-single-loop.jpg
-categories: [Computer Science, Algorithm]
-tags: [linked-list, ruby]
+categories: [Algorithm, Computer Science, Ruby]
+tags: [linked-list]
 ---
 
 

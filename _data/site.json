@@ -1,25 +1,23 @@
 {
   "categories": [
     "Algorithm",
+    "JavaScript",
     "Math",
+    "Ruby",
     "Git",
     "Bash",
     "Computer Science",
     "SQL",
     "HTML",
     "CSS",
-    "Ruby",
     "Ruby on Rails",
     "Node.js",
-    "JavaScript",
     "Game",
     "PHP",
-    "Security",
-    "Sorting"
+    "Security"
   ],
   "tags": [
-    "javascript",
-    "ruby",
+    "trees",
     "base-26",
     "bashrc",
     "dot-files",
@@ -27,11 +25,10 @@
     "optimization",
     "time-series",
     "ecommerce",
-    "responsive",
+    "responsive-design",
     "cms",
     "tinymce",
     "dictionary",
-    "words",
     "html-entities",
     "encoding",
     "decoding",
@@ -42,6 +39,7 @@
     "random",
     "search",
     "binary",
+    "sorting",
     "transition",
     "animation"
   ],
@@ -50,7 +48,31 @@
       "draft": false,
       "categories": [
         "Algorithm",
-        "Math"
+        "JavaScript"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/multi-directional-tree-traversal.png"
+      },
+      "css_id": "posts-show",
+      "comments": true,
+      "title": "Multi Directional Tree Traversal",
+      "date": "2016-03-25",
+      "tags": [
+        "trees"
+      ],
+      "slug": "multi-directional-tree-traversal",
+      "ext": ".md",
+      "excerpt": "<p>This will be a quick post that I will most likely update later. For now I’m pretty excited to share a little experiment I put together in JavaScript.</p>\n\n",
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-f1ef7cfd5a0538e8e34e3d5fa267930b"
+    },
+    {
+      "draft": false,
+      "categories": [
+        "Algorithm",
+        "Math",
+        "JavaScript",
+        "Ruby"
       ],
       "layout": "post",
       "image": {
@@ -61,8 +83,6 @@
       "title": "Base 26 Conversion",
       "date": "2016-03-12",
       "tags": [
-        "javascript",
-        "ruby",
         "base-26"
       ],
       "slug": "base-26-conversion",
@@ -96,8 +116,9 @@
     {
       "draft": false,
       "categories": [
+        "Algorithm",
         "Computer Science",
-        "Algorithm"
+        "Ruby"
       ],
       "layout": "post",
       "image": {
@@ -108,8 +129,7 @@
       "title": "Reversing a Linked List in a Single Loop",
       "date": "2016-03-03",
       "tags": [
-        "linked-list",
-        "ruby"
+        "linked-list"
       ],
       "slug": "reversing-a-linked-list-in-a-single-loop",
       "ext": ".md",
@@ -154,7 +174,7 @@
       "date": "2015-08-22",
       "tags": [
         "ecommerce",
-        "responsive"
+        "responsive-design"
       ],
       "slug": "viking-mock-ecommerce-layout",
       "ext": ".md",
@@ -200,8 +220,7 @@
       "title": "Letterz",
       "date": "2015-06-11",
       "tags": [
-        "dictionary",
-        "words"
+        "dictionary"
       ],
       "slug": "letterz",
       "ext": ".md",
@@ -303,8 +322,8 @@
     {
       "draft": false,
       "categories": [
-        "Computer Science",
-        "Algorithm"
+        "Algorithm",
+        "Computer Science"
       ],
       "layout": "post",
       "image": {
@@ -326,8 +345,8 @@
     {
       "draft": false,
       "categories": [
-        "Sorting",
-        "Algorithm"
+        "Algorithm",
+        "JavaScript"
       ],
       "layout": "post",
       "image": {
@@ -338,7 +357,7 @@
       "title": "Bubble Sort Algorithm",
       "date": "2015-06-05",
       "tags": [
-        "javascript"
+        "sorting"
       ],
       "slug": "bubble-sort-algorithm",
       "ext": ".md",

@@ -3,8 +3,8 @@ title: Base 26 Conversion
 date: 2016-03-12 00:00:00 -0500
 image:
   url: https://s3.amazonaws.com/bw.bideowego/images/base-26-conversion.jpg
-categories: [Algorithm, Math]
-tags: [javascript, ruby, base-26]
+categories: [Algorithm, Math, JavaScript, Ruby]
+tags: [base-26]
 ---
 
 I was working on a project that used [Google spreadsheets](https://www.google.com/sheets/about/) to store data. The catch was that the API wrapper referred to the columns in the spreadsheet by number. However, columns in spreadsheets are named with letters. Once `Z` is reached the next column is prefixed with an `A` so it appears as `AA`. This is [base 26](http://www.minus40.info/sky/alphabetcountdec.html).

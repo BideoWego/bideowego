@@ -15,13 +15,23 @@
         {{ post.date | toDate | date: 'EEEE MMMM d, yyyy' }}
       </small>
     </h4>
-    <p>
+    <p class="categories">
       <i class="fa fa-columns"></i>
-      {{ post.categories.join(', ') }}
+      <span ng-repeat="category in post.categories">
+        <a class="category" href="" ng-click="setQ(category)">
+          {{ category }}
+        </a>
+        <span ng-if="!$last">, </span>
+      </span>
     </p>
-    <p>
+    <p class="tags">
       <i class="fa fa-tags"></i>
-      #{{ post.tags.join(', #') }}
+      <span ng-repeat="tag in post.tags">
+        <a class="tag" href="" ng-click="setQ(tag)">
+          #{{ tag }}
+        </a>
+        <span ng-if="!$last">, </span>
+      </span>
     </p>
     <div class="excerpt" ng-bind-html="post.excerpt"></div>
   </div>

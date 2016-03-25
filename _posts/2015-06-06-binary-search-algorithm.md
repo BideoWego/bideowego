@@ -3,7 +3,7 @@ title: Binary Search Algorithm
 date: 2015-06-06 00:00:00 -0500
 image:
   url: https://s3.amazonaws.com/bw.bideowego/images/binary-search-algorithm.jpg
-categories: [Computer Science, Algorithm]
+categories: [Algorithm, Computer Science]
 tags: [search, binary]
 ---
 
