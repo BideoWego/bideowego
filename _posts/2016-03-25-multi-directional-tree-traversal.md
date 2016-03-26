@@ -11,6 +11,8 @@ This will be a quick post that I will most likely update later. For now I'm pret
 
 It is a tree rendered in HTML with node's that have attached click events. When any single node is clicked the event travels throughout the entire tree flowing up and downstream. No node is repeated in the traversal and the traversal happens up and down stream meaning `child => parent` AND `parent => child`.
 
+I originally wrote the project using just jQuery but I decided to refactor it to use Angular.
+
 Here is the link to the [demo](http://bideowego-multi-directional-tree-traversal.surge.sh/) and the [source on Github](https://github.com/BideoWego/multi-directional-tree-traversal/).
 
 
