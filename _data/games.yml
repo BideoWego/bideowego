@@ -5,6 +5,13 @@
 # ----------------------------------------
 
 -
+  name: Othello
+  description: The 2 player checker's-like brain teaser built with AngularJS.
+  github: https://github.com/BideoWego/othello
+  site: http://bideowego-othello.surge.sh/
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/othello-game-with-angularjs.jpg
+-
   name: Tetris
   description: The classic game brought to life in the browser with JavaScript.
   github: https://github.com/BideoWego/project_tetris_js

@@ -1,7 +1,8 @@
 {
   "categories": [
-    "Algorithm",
+    "Game",
     "JavaScript",
+    "Algorithm",
     "Math",
     "Ruby",
     "Git",
@@ -12,11 +13,11 @@
     "CSS",
     "Ruby on Rails",
     "Node.js",
-    "Game",
     "PHP",
     "Security"
   ],
   "tags": [
+    "angularjs",
     "trees",
     "base-26",
     "bashrc",
@@ -47,6 +48,28 @@
     {
       "draft": false,
       "categories": [
+        "Game",
+        "JavaScript"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/othello-game-with-angularjs.jpg"
+      },
+      "css_id": "posts-show",
+      "comments": true,
+      "title": "Othello Game with AngularJS",
+      "date": "2016-04-08",
+      "tags": [
+        "angularjs"
+      ],
+      "slug": "othello-game-with-angularjs",
+      "ext": ".md",
+      "excerpt": "<p>Some may know the game as <a href=\"https://en.wikipedia.org/wiki/Othello_(video_game)\">Othello</a> for Nintendo and some may know the game as <a href=\"https://en.wikipedia.org/wiki/Reversi\">Reversi</a>, but both refer to the same brain teasing game of wits.</p>\n\n",
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-a87efb52951ff83c145a96d99881c35f"
+    },
+    {
+      "draft": false,
+      "categories": [
         "Algorithm",
         "JavaScript"
       ],
@@ -59,7 +82,8 @@
       "title": "Multi Directional Tree Traversal",
       "date": "2016-03-25",
       "tags": [
-        "trees"
+        "trees",
+        "angularjs"
       ],
       "slug": "multi-directional-tree-traversal",
       "ext": ".md",
@@ -389,6 +413,7 @@
     }
   ],
   "archives": [
+    "2016-04",
     "2016-03",
     "2015-10",
     "2015-08",
@@ -574,6 +599,15 @@
     }
   ],
   "games": [
+    {
+      "name": "Othello",
+      "description": "The 2 player checker's-like brain teaser built with AngularJS.",
+      "github": "https://github.com/BideoWego/othello",
+      "site": "http://bideowego-othello.surge.sh/",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/othello-game-with-angularjs.jpg"
+      }
+    },
     {
       "name": "Tetris",
       "description": "The classic game brought to life in the browser with JavaScript.",
