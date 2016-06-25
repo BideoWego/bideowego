@@ -621,7 +621,7 @@
       "name": "Asteroids",
       "description": "The arcade game rendered with HTML CSS and JavaScript (Works best in Chrome).",
       "github": "https://github.com/BideoWego/assignment_js_oop",
-      "site": "https://rawgit.com/BideoWego/assignment_js_oop/master/rawgit.html",
+      "site": "http://bideowego-asteroids.surge.sh/",
       "image": {
         "url": "https://s3.amazonaws.com/bw.bideowego/images/asteroids.png"
       }
