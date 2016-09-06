@@ -154,7 +154,7 @@ We compensate for the array being zero indexed by subtracting `1` from the quoti
 
 As you saw above, we get the ones place first, tens place next, and etc. So we prepend the value to our result string to get the correct order.
 
-That's it! This approach is also fast.Indexing into an array is very fast, `O(1)`.In `toString26` we're dividing in our iteration so we're chunking large numbersdown by a big amount.Each time we iterate the new number we're dividing is the `quotient`from the last iteration.The time complexity comes out to be `O(log n)`.It's worth noting that the base of the `log` is `26` and makes thisfaster than a base of `2`. But it is a constant and therefore left out.
+That's it! This approach is also fast.Indexing into an array is very fast, `O(1)`. In `toString26` we're dividing in our iteration so we're chunking large numbersdown by a big amount. Each time we iterate the new number we're dividing is the `quotient` from the last iteration. The time complexity comes out to be `O(log n)`. It's worth noting that the base of the `log` is `26` and makes this faster than a base of `2`. But it is a constant and therefore left out.
 
 
 
