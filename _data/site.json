@@ -630,7 +630,7 @@
       "name": "Snake",
       "description": "Snake hungry want eat.",
       "github": "https://github.com/BideoWego/project_game_center_browser",
-      "site": "https://rawgit.com/BideoWego/project_game_center_browser/rawgit/index.html",
+      "site": "http://bideowego-snake.surge.sh",
       "image": {
         "url": "https://s3.amazonaws.com/bw.bideowego/images/snake.png"
       }
