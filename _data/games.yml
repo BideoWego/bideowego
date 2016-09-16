@@ -15,7 +15,7 @@
   name: Tetris
   description: The classic game brought to life in the browser with JavaScript.
   github: https://github.com/BideoWego/project_tetris_js
-  site: https://rawgit.com/BideoWego/project_tetris_js/master/rawgit.html
+  site: http://bideowego-tetris.surge.sh/
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/tetris.png
 -
