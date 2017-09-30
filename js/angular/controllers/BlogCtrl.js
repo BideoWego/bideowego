@@ -29,9 +29,8 @@ BideoWego.controller('BlogCtrl',
 
 
     $scope.setQ = function(q) {
-      console.log(q);
       $scope.q = q;
-      $('a[href="#tab-posts"]').trigger('click');
+      angular.element('a[href="#tab-posts"]').trigger('click');
     };
 
 

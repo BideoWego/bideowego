@@ -7,7 +7,7 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  
+
   .tab-pane:not(#tab-posts) a {
     font-size: 20px;
     @include transition-border-y;
@@ -38,5 +38,13 @@
 #disqus_thread {
   margin-top: 64px;
 }
+
+@media only screen and (max-width: $tablet-width) {
+  #blog-index .nav-center {
+    padding-bottom: 16px;
+    border-bottom: 1px solid $light;
+  }
+}
+
 
 
