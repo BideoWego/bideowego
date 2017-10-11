@@ -5,6 +5,34 @@
 # ----------------------------------------
 
 -
+  name: Express Method-Override GET POST Support
+  description: Provides support for the Express method-override package to override HTTP methods via GET requests in the query string and POST requests in the POST body.
+  github: https://github.com/BideoWego/express-method-override-get-post-support
+  site: https://www.npmjs.com/package/express-method-override-get-post-support
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/expressjs.png
+-
+  name: Morgan Toolkit
+  description: "Adds syntax highlighted logging of request objects: query, params, body, session, user to the Morgan logging package. Other features in development."
+  github: https://github.com/BideoWego/morgan-toolkit
+  site: https://www.npmjs.com/package/morgan-toolkit
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/dexter_morgan.jpg
+-
+  name: Mongooseeder
+  description: Simple Mongoose seeding. Mongooseeder wraps the process of connecting to MongoDB through Mongoose, cleaning old data, and seeding new data. It provides a straightforward interface to minimize the code necessary for seeding.
+  github: https://github.com/BideoWego/mongooseeder
+  site: https://www.npmjs.com/package/mongooseeder
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/mongoosejs.png
+-
+  name: Furious Spinoff
+  description: Creates random Fast and Furious movie spin-off titles.
+  github: https://github.com/BideoWego/furious_spinoff
+  site: https://www.npmjs.com/package/furious_spinoff
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/furious_spinoff.jpg
+-
   name: Danebook
   description: A mock social network app for the Danish of course!
   github: https://github.com/BideoWego/danebook
