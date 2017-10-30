@@ -580,6 +580,24 @@
       }
     },
     {
+      "name": "CodeSnapIt",
+      "description": "CodeSnapIt was inspired by the inability to share syntax-highlighted code across social media without taking screenshots and jumping through hoops. Currently, CodeSnapIt is a fully self-contained social media site for sharing code, commenting and liking on that code, and following users.",
+      "github": "https://github.com/BideoWego/codesnapit",
+      "site": "http://codesnapit.herokuapp.com/",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/codesnapit.png"
+      }
+    },
+    {
+      "name": "Browserazzi",
+      "description": "A paparazzi for your browser that takes screenshots of websites given a URL.",
+      "github": "https://github.com/BideoWego/browserazzi",
+      "site": "http://browserazzi.herokuapp.com/",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/browserazzi.png"
+      }
+    },
+    {
       "name": "Furious Spinoff",
       "description": "Creates random Fast and Furious movie spin-off titles.",
       "github": "https://github.com/BideoWego/furious_spinoff",
