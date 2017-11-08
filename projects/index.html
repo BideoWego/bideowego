@@ -23,7 +23,7 @@ css_id: projects-index
       <!-- Project -->
       <div class="media project index-item">
         <div class="media-left">
-          <a href="{{ project.site }}">
+          <a href="{{ project.site | default: project.github }}">
             <img class="media-object img-circle" src="{{ project.image.url }}" alt="Image">
           </a>
         </div>
