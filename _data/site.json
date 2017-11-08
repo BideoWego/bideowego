@@ -580,6 +580,14 @@
       }
     },
     {
+      "name": "Genr8",
+      "description": "Genr8 is a DIY generator written in Bash. Use it to help you generate boilerplate for your applications.",
+      "github": "https://github.com/BideoWego/genr8",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/genr8.jpg"
+      }
+    },
+    {
       "name": "CodeSnapIt",
       "description": "CodeSnapIt was inspired by the inability to share syntax-highlighted code across social media without taking screenshots and jumping through hoops. Currently, CodeSnapIt is a fully self-contained social media site for sharing code, commenting and liking on that code, and following users.",
       "github": "https://github.com/BideoWego/codesnapit",
