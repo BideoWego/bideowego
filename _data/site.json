@@ -1,12 +1,12 @@
 {
   "categories": [
-    "Game",
+    "Bash",
     "JavaScript",
+    "Game",
     "Algorithm",
     "Math",
     "Ruby",
     "Git",
-    "Bash",
     "Computer Science",
     "SQL",
     "HTML",
@@ -17,6 +17,7 @@
     "Security"
   ],
   "tags": [
+    "express",
     "angularjs",
     "trees",
     "base-26",
@@ -45,6 +46,28 @@
     "animation"
   ],
   "posts": [
+    {
+      "draft": false,
+      "categories": [
+        "Bash",
+        "JavaScript"
+      ],
+      "layout": "post",
+      "image": {
+        "url": "https://s3.amazonaws.com/bw.bideowego/images/genr8.jpg"
+      },
+      "css_id": "posts-show",
+      "comments": true,
+      "title": "Genr8 Express App Generator",
+      "date": "2017-11-09",
+      "tags": [
+        "express"
+      ],
+      "slug": "genr8-express-app-generator",
+      "ext": ".md",
+      "excerpt": "<p>What’s an app generator? What is <a href=\"https://en.wikipedia.org/wiki/Boilerplate_code\">boilerplate code</a>? How does a generator help and why is it so cool?</p>\n\n",
+      "disqus_id": "a893ec5ff4221b69a8e2ae17117c3df0-7336b9a6395e48c210cae6952ffbe850"
+    },
     {
       "draft": false,
       "categories": [
@@ -413,6 +436,7 @@
     }
   ],
   "archives": [
+    "2017-11",
     "2016-04",
     "2016-03",
     "2015-10",
