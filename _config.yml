@@ -14,7 +14,7 @@ author: Chris Scavello
 hostname: http://bideowego.com
 baseurl: /
 email: bideowego@gmail.com
-description: > 
+description: >
   Programmatic creativity that is always developing
 url: http://bideowego.com
 
@@ -31,7 +31,7 @@ background:
 
 logo:
   full:
-    url: https://s3.amazonaws.com/bw.bideowego/images/bw.png
+    url: https://s3.amazonaws.com/bw.bideowego/images/me.png
   medium:
     url: /favicon-194x194.png
   thumbnail:
