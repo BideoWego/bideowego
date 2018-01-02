@@ -27,7 +27,7 @@
     url: https://s3.amazonaws.com/bw.bideowego/images/mongoosejs.png
 -
   name: Genr8
-  description: Genr8 is a DIY generator written in Bash. Use it to help you generate boilerplate for your applications.
+  description: Genr8 is a DIY generator written in Bash. Use it to help you generate boilerplate for your applications. Ships with a ready-to-use Express.js application boilerplate generator.
   github: https://github.com/BideoWego/genr8
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/genr8.jpg
