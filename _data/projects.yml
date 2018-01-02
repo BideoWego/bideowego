@@ -39,6 +39,13 @@
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/codesnapit.png
 -
+  name: Mimir's Market
+  description: A mock eCommerce store with a Viking theme. Built as a solution for students to inspect after submitting their own completed projects. The project integrates both PostgreSQL and MongoDB databases as well as sandboxed Stripe payments. Features include product search, session-based shopping cart, Stripe checkouts and historical transaction analytics.
+  github: https://github.com/BideoWego/mimirs_market
+  site: http://bideowego-mimirs-market.herokuapp.com/
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/mimirs_market.jpg
+-
   name: Browserazzi
   description: A paparazzi for your browser that takes screenshots of websites given a URL.
   github: https://github.com/BideoWego/browserazzi
