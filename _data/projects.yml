@@ -5,12 +5,19 @@
 # ----------------------------------------
 
 -
-  name: Express Method-Override GET POST Support
-  description: Provides support for the Express method-override package to override HTTP methods via GET requests in the query string and POST requests in the POST body.
-  github: https://github.com/BideoWego/express-method-override-get-post-support
-  site: https://www.npmjs.com/package/express-method-override-get-post-support
+  name: CodeSnapIt
+  description: CodeSnapIt was inspired by the inability to share syntax-highlighted code across social media without taking screenshots and jumping through hoops. Currently, CodeSnapIt is a fully self-contained social media site for sharing code, commenting and liking on that code, and following users.
+  github: https://github.com/BideoWego/codesnapit
+  site: http://codesnapit.herokuapp.com/
   image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/expressjs.png
+    url: https://s3.amazonaws.com/bw.bideowego/images/codesnapit.png
+-
+  name: Mimir's Market
+  description: A mock eCommerce store with a Viking theme. Built as a solution for students to inspect after submitting their own completed projects. The project integrates both PostgreSQL and MongoDB databases as well as sandboxed Stripe payments. Features include product search, session-based shopping cart, Stripe checkouts and historical transaction analytics.
+  github: https://github.com/BideoWego/mimirs_market
+  site: http://bideowego-mimirs-market.herokuapp.com/
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/mimirs_market.jpg
 -
   name: Morgan Toolkit
   description: "Adds syntax highlighted logging of request objects: query, params, body, session, user to the Morgan logging package. Other features in development."
@@ -32,33 +39,12 @@
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/genr8.jpg
 -
-  name: CodeSnapIt
-  description: CodeSnapIt was inspired by the inability to share syntax-highlighted code across social media without taking screenshots and jumping through hoops. Currently, CodeSnapIt is a fully self-contained social media site for sharing code, commenting and liking on that code, and following users.
-  github: https://github.com/BideoWego/codesnapit
-  site: http://codesnapit.herokuapp.com/
+  name: Express Method-Override GET POST Support
+  description: Provides support for the Express method-override package to override HTTP methods via GET requests in the query string and POST requests in the POST body.
+  github: https://github.com/BideoWego/express-method-override-get-post-support
+  site: https://www.npmjs.com/package/express-method-override-get-post-support
   image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/codesnapit.png
--
-  name: Mimir's Market
-  description: A mock eCommerce store with a Viking theme. Built as a solution for students to inspect after submitting their own completed projects. The project integrates both PostgreSQL and MongoDB databases as well as sandboxed Stripe payments. Features include product search, session-based shopping cart, Stripe checkouts and historical transaction analytics.
-  github: https://github.com/BideoWego/mimirs_market
-  site: http://bideowego-mimirs-market.herokuapp.com/
-  image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/mimirs_market.jpg
--
-  name: Browserazzi
-  description: A paparazzi for your browser that takes screenshots of websites given a URL.
-  github: https://github.com/BideoWego/browserazzi
-  site: http://browserazzi.herokuapp.com/
-  image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/browserazzi.png
--
-  name: Furious Spinoff
-  description: Creates random Fast and Furious movie spin-off titles.
-  github: https://github.com/BideoWego/furious_spinoff
-  site: https://www.npmjs.com/package/furious_spinoff
-  image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/furious_spinoff.jpg
+    url: https://s3.amazonaws.com/bw.bideowego/images/expressjs.png
 -
   name: Danebook
   description: A mock social network app for the Danish of course!
@@ -74,24 +60,16 @@
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/viking-store.png
 -
-  name: Uber Food Truck Challenge
-  description: A coding challenge from Uber using the Google maps API and SF Open Data
-  github: https://github.com/BideoWego/uber_food_truck_challenge
-  site: https://uber-food-truck-challenge.herokuapp.com
+  name: Browserazzi
+  description: A paparazzi for your browser that takes screenshots of websites given a URL.
+  github: https://github.com/BideoWego/browserazzi
+  site: http://browserazzi.herokuapp.com/
   image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/uber-food-truck-challenge.jpg
+    url: https://s3.amazonaws.com/bw.bideowego/images/browserazzi.png
 -
-  name: Mousevc
-  description: A tiny MVC framework to jump start CLI apps. Gemified.
-  github: https://github.com/BideoWego/mousevc
-  site: https://rubygems.org/gems/mousevc
+  name: Furious Spinoff
+  description: Creates random Fast and Furious movie spin-off titles.
+  github: https://github.com/BideoWego/furious_spinoff
+  site: https://www.npmjs.com/package/furious_spinoff
   image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/mousevc.png
--
-  name: Slack Pomodoro Timer
-  description: A remote CLI pomodoro timer for Slack.
-  github: https://github.com/BideoWego/slack_pomodoro_timer
-  site: https://rubygems.org/gems/slack_pomodoro_timer
-  image:
-    url: https://s3.amazonaws.com/bw.bideowego/images/pomodoro.jpg
-
+    url: https://s3.amazonaws.com/bw.bideowego/images/furious_spinoff.jpg
