@@ -6,36 +6,44 @@
 
 -
   name: CodeSnapIt
-  description: CodeSnapIt was inspired by the inability to share syntax-highlighted code across social media without taking screenshots and jumping through hoops. Currently, CodeSnapIt is a fully self-contained social media site for sharing code, commenting and liking on that code, and following users.
+  description: CodeSnapIt is a full-stack Rails and AngularJS social media app for sharing code snippets, commenting and liking on that code, and following users. Built by a team of three of which I was the leader and creator.
   github: https://github.com/BideoWego/codesnapit
   site: http://codesnapit.herokuapp.com/
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/codesnapit.png
 -
   name: Mimir's Market
-  description: A mock eCommerce store with a Viking theme. Built as a solution for students to inspect after submitting their own completed projects. The project integrates both PostgreSQL and MongoDB databases as well as sandboxed Stripe payments. Features include product search, session-based shopping cart, Stripe checkouts and historical transaction analytics.
+  description: Mimir's Market is a Node/Express.js mock eCommerce application. Built on top of both a PostgreSQL and MongoDB database. This project offers a full eCommerce shopping experience complete with shopping cart and Stripe checkout. It also features administration style analytics powered by MongoDB.
   github: https://github.com/BideoWego/mimirs_market
   site: http://bideowego-mimirs-market.herokuapp.com/
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/mimirs_market.jpg
 -
+  name: Djello
+  description: Djello is a full-stack React/Redux and Node/Express.js project management application. Built on top of a PostgreSQL database.
+  github: https://github.com/BideoWego/djello
+  site: https://bideowego-djello.surge.sh/
+  image:
+    url: https://s3.amazonaws.com/bw.bideowego/images/djello.png
+-
   name: Morgan Toolkit
-  description: "Adds syntax highlighted logging of request objects: query, params, body, session, user to the Morgan logging package. Other features in development."
+  description: Morgan Toolkit is an NPM package I created to expand the features of the popular Express logging package, Morgan.
   github: https://github.com/BideoWego/morgan-toolkit
   site: https://www.npmjs.com/package/morgan-toolkit
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/dexter_morgan.jpg
 -
   name: Mongooseeder
-  description: Simple Mongoose seeding. Mongooseeder wraps the process of connecting to MongoDB through Mongoose, cleaning old data, and seeding new data. It provides a straightforward interface to minimize the code necessary for seeding.
+  description: Mongooseeder is an NPM package I created to provide an interface to seed Mongoose.js models into MongoDB. The goal of this being to make the seeding process as simple as possible.
   github: https://github.com/BideoWego/mongooseeder
   site: https://www.npmjs.com/package/mongooseeder
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/mongoosejs.png
 -
   name: Genr8
-  description: Genr8 is a DIY generator written in Bash. Use it to help you generate boilerplate for your applications. Ships with a ready-to-use Express.js application boilerplate generator.
+  description: Genr8 is a code generator written in Bash with the goal of simplifying boilerplate code generation as well as providing personalized flexibility and configuration.
   github: https://github.com/BideoWego/genr8
+  site: https://github.com/BideoWego/genr8
   image:
     url: https://s3.amazonaws.com/bw.bideowego/images/genr8.jpg
 -
