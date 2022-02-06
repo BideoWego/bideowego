@@ -15,28 +15,12 @@
   url: https://twitter.com/BideoWego
   icon: twitter
 -
-  name: facebook
-  url: https://www.facebook.com/bideowego
-  icon: facebook
--
   name: soundcloud
   url: https://soundcloud.com/bideowego
   icon: soundcloud
--
-  name: youtube
-  url: https://www.youtube.com/user/BideoWego
-  icon: youtube-play
 -
   name: instagram
   username: BideoWego
   url: https://instagram.com/bideowego/
   icon: instagram
--
-  name: googleplus
-  url: https://plus.google.com/u/0/117438299276295584487/posts
-  icon: google-plus
--
-  name: linkedin
-  url: https://www.linkedin.com/in/chrisscavello
-  icon: linkedin
 
